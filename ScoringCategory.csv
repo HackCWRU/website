@@ -1,0 +1,7 @@
+category_name,question,min_score,max_score
+Creativity,How original is the project? Does the hack use a tool or technology in a unique way?,1,10
+Practicality,How useful is this hack? Is there a realistic market for this product? Does this project achieve its goal?,1,10
+Technical Depth,How technically difficult is this project? Is the hack created with tools new to the hackers?,1,10
+Polish,How is the project presented? Does the hack work as expected? How does the project look? Does the hack have an intuitive user experience?,1,10
+Design,Creativity / originality. Does the design communicate an effective overall theme? Does the design complement the project’s functionality?,1,10
+Execution,Visual polish and appeal. Does the project demonstrate artistic skill?,1,10

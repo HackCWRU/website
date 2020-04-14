@@ -1,0 +1,73 @@
+attendee_id,restriction
+1,Vegetarian
+9,Vegetarian
+19,Vegetarian
+22,Vegetarian
+41,Eggs
+41,Dairy
+41,Peanuts
+41,Vegetarian
+46,Vegetarian
+50,Vegetarian
+55,cannot eat pork
+61,Vegetarian
+79,Allergy to nuts
+81,Vegetarian
+87,Vegetarian
+96,nuts
+96,sesame seeds
+97,Lactose Intolerant
+98,beef
+98,pork
+103,Vegetarian
+105,Vegetarian
+108,Vegetarian
+126,Vegan
+130,Vegetarian
+131,Halal or Kosher
+134,Vegetarian
+138,gluten
+138,Dairy
+146,Vegetarian
+152,Halal
+162,Kosher and Halal
+166,Vegetarian
+174,Vegetarian
+175,Nuts
+175,Vegetarian
+176,Gluten-Free
+182,Vegetarian
+200,Dairy
+207,Vegetarian
+211,Pescatarian
+214,Vegetarian
+216,No Shrimp
+228,No pork
+229,Vegetarian
+230,Vegetarian
+243,Vegetarian
+245,Vegetarian
+250,Vegetarian
+258,Lactose intolerant 
+259,Vegetarian
+260,Vegetarian
+265,Vegetarian
+270,Vegetarian
+274,I don't eat pork
+281,Vegetarian
+283,Vegetarian
+285,Vegetarian
+289,Vegetarian
+291,Vegetarian
+293,gluten free
+293,vegan
+300,nut allergy
+308,Lactose intolerance 
+313,I cannot eat beef
+319,I only eat chicken in terms of meat
+327,meat eater 
+339,Vegetarian
+340,Beef
+341,Lactose intolerant 
+342,Vegetarian
+343,pork

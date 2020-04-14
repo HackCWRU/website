@@ -1,0 +1,1217 @@
+,judge_id,project_id,prize_name,category_name,score
+0,21,29,Aesthetic,Design,7.5
+1,21,29,Aesthetic,Execution,7.5
+2,21,26,Aesthetic,Design,7.0
+3,21,26,Aesthetic,Execution,7.0
+4,21,24,Aesthetic,Design,5.0
+5,21,24,Aesthetic,Execution,5.0
+6,21,23,Aesthetic,Design,0.0
+7,21,23,Aesthetic,Execution,0.0
+8,21,22,Aesthetic,Design,3.0
+9,21,22,Aesthetic,Execution,3.0
+10,21,20,Aesthetic,Design,5.0
+11,21,20,Aesthetic,Execution,5.0
+12,21,18,Aesthetic,Design,5.0
+13,21,18,Aesthetic,Execution,5.0
+14,21,16,Aesthetic,Design,6.0
+15,21,16,Aesthetic,Execution,6.0
+16,21,15,Aesthetic,Design,6.5
+17,21,15,Aesthetic,Execution,6.5
+18,21,10,Aesthetic,Design,
+19,21,10,Aesthetic,Execution,
+20,21,6,Aesthetic,Design,6.5
+21,21,6,Aesthetic,Execution,6.5
+22,21,3,Aesthetic,Design,
+23,21,3,Aesthetic,Execution,
+24,21,2,Aesthetic,Design,8.0
+25,21,2,Aesthetic,Execution,8.0
+26,21,1,Aesthetic,Design,9.0
+27,21,1,Aesthetic,Execution,9.0
+28,21,32,Aesthetic,Design,6.0
+29,21,32,Aesthetic,Execution,6.0
+30,21,8,Aesthetic,Design,5.5
+31,21,8,Aesthetic,Execution,5.5
+32,6,29,Aesthetic,Design,4.5
+33,6,29,Aesthetic,Execution,4.5
+34,6,26,Aesthetic,Design,5.0
+35,6,26,Aesthetic,Execution,5.0
+36,6,24,Aesthetic,Design,1.5
+37,6,24,Aesthetic,Execution,1.5
+38,6,23,Aesthetic,Design,0.0
+39,6,23,Aesthetic,Execution,0.0
+40,6,22,Aesthetic,Design,4.0
+41,6,22,Aesthetic,Execution,4.0
+42,6,20,Aesthetic,Design,3.0
+43,6,20,Aesthetic,Execution,3.0
+44,6,18,Aesthetic,Design,3.0
+45,6,18,Aesthetic,Execution,3.0
+46,6,16,Aesthetic,Design,3.0
+47,6,16,Aesthetic,Execution,3.0
+48,6,15,Aesthetic,Design,5.0
+49,6,15,Aesthetic,Execution,5.0
+50,6,10,Aesthetic,Design,4.0
+51,6,10,Aesthetic,Execution,4.0
+52,6,6,Aesthetic,Design,5.0
+53,6,6,Aesthetic,Execution,5.0
+54,6,3,Aesthetic,Design,5.0
+55,6,3,Aesthetic,Execution,5.0
+56,6,2,Aesthetic,Design,4.0
+57,6,2,Aesthetic,Execution,4.0
+58,6,1,Aesthetic,Design,4.0
+59,6,1,Aesthetic,Execution,4.0
+60,6,32,Aesthetic,Design,5.0
+61,6,32,Aesthetic,Execution,5.0
+62,6,8,Aesthetic,Design,
+63,6,8,Aesthetic,Execution,
+64,2,29,Aesthetic,Design,6.5
+65,2,29,Aesthetic,Execution,6.5
+66,2,26,Aesthetic,Design,
+67,2,26,Aesthetic,Execution,
+68,2,24,Aesthetic,Design,9.0
+69,2,24,Aesthetic,Execution,9.0
+70,2,23,Aesthetic,Design,
+71,2,23,Aesthetic,Execution,
+72,2,22,Aesthetic,Design,9.0
+73,2,22,Aesthetic,Execution,9.0
+74,2,20,Aesthetic,Design,8.5
+75,2,20,Aesthetic,Execution,8.5
+76,2,18,Aesthetic,Design,8.0
+77,2,18,Aesthetic,Execution,8.0
+78,2,16,Aesthetic,Design,7.0
+79,2,16,Aesthetic,Execution,7.0
+80,2,15,Aesthetic,Design,
+81,2,15,Aesthetic,Execution,
+82,2,10,Aesthetic,Design,7.5
+83,2,10,Aesthetic,Execution,7.5
+84,2,6,Aesthetic,Design,6.5
+85,2,6,Aesthetic,Execution,6.5
+86,2,3,Aesthetic,Design,7.0
+87,2,3,Aesthetic,Execution,7.0
+88,2,2,Aesthetic,Design,8.5
+89,2,2,Aesthetic,Execution,8.5
+90,2,1,Aesthetic,Design,8.0
+91,2,1,Aesthetic,Execution,8.0
+92,2,32,Aesthetic,Design,7.5
+93,2,32,Aesthetic,Execution,7.5
+94,2,8,Aesthetic,Design,5.5
+95,2,8,Aesthetic,Execution,5.5
+96,33,32,Beginner,Creativity,6.0
+97,33,32,Beginner,Practicality,6.0
+98,33,32,Beginner,Polish,6.0
+99,33,32,Beginner,Technical Depth,6.0
+100,33,29,Beginner,Creativity,5.0
+101,33,29,Beginner,Practicality,5.0
+102,33,29,Beginner,Polish,5.0
+103,33,29,Beginner,Technical Depth,5.0
+104,33,25,Beginner,Creativity,4.25
+105,33,25,Beginner,Practicality,4.25
+106,33,25,Beginner,Polish,4.25
+107,33,25,Beginner,Technical Depth,4.25
+108,33,24,Beginner,Creativity,7.0
+109,33,24,Beginner,Practicality,7.0
+110,33,24,Beginner,Polish,7.0
+111,33,24,Beginner,Technical Depth,7.0
+112,33,22,Beginner,Creativity,6.5
+113,33,22,Beginner,Practicality,6.5
+114,33,22,Beginner,Polish,6.5
+115,33,22,Beginner,Technical Depth,6.5
+116,33,10,Beginner,Creativity,5.5
+117,33,10,Beginner,Practicality,5.5
+118,33,10,Beginner,Polish,5.5
+119,33,10,Beginner,Technical Depth,5.5
+120,18,32,Beginner,Creativity,8.25
+121,18,32,Beginner,Practicality,8.25
+122,18,32,Beginner,Polish,8.25
+123,18,32,Beginner,Technical Depth,8.25
+124,18,29,Beginner,Creativity,9.0
+125,18,29,Beginner,Practicality,9.0
+126,18,29,Beginner,Polish,9.0
+127,18,29,Beginner,Technical Depth,9.0
+128,18,25,Beginner,Creativity,5.0
+129,18,25,Beginner,Practicality,5.0
+130,18,25,Beginner,Polish,5.0
+131,18,25,Beginner,Technical Depth,5.0
+132,18,24,Beginner,Creativity,8.75
+133,18,24,Beginner,Practicality,8.75
+134,18,24,Beginner,Polish,8.75
+135,18,24,Beginner,Technical Depth,8.75
+136,18,22,Beginner,Creativity,9.0
+137,18,22,Beginner,Practicality,9.0
+138,18,22,Beginner,Polish,9.0
+139,18,22,Beginner,Technical Depth,9.0
+140,18,10,Beginner,Creativity,9.0
+141,18,10,Beginner,Practicality,9.0
+142,18,10,Beginner,Polish,9.0
+143,18,10,Beginner,Technical Depth,9.0
+144,3,29,Civic,Creativity,6.0
+145,3,29,Civic,Practicality,6.0
+146,3,29,Civic,Polish,6.0
+147,3,29,Civic,Technical Depth,6.0
+148,3,27,Civic,Creativity,3.25
+149,3,27,Civic,Practicality,3.25
+150,3,27,Civic,Polish,3.25
+151,3,27,Civic,Technical Depth,3.25
+152,3,25,Civic,Creativity,2.25
+153,3,25,Civic,Practicality,2.25
+154,3,25,Civic,Polish,2.25
+155,3,25,Civic,Technical Depth,2.25
+156,3,24,Civic,Creativity,4.0
+157,3,24,Civic,Practicality,4.0
+158,3,24,Civic,Polish,4.0
+159,3,24,Civic,Technical Depth,4.0
+160,3,18,Civic,Creativity,5.5
+161,3,18,Civic,Practicality,5.5
+162,3,18,Civic,Polish,5.5
+163,3,18,Civic,Technical Depth,5.5
+164,3,17,Civic,Creativity,4.0
+165,3,17,Civic,Practicality,4.0
+166,3,17,Civic,Polish,4.0
+167,3,17,Civic,Technical Depth,4.0
+168,3,7,Civic,Creativity,3.25
+169,3,7,Civic,Practicality,3.25
+170,3,7,Civic,Polish,3.25
+171,3,7,Civic,Technical Depth,3.25
+172,3,6,Civic,Creativity,6.0
+173,3,6,Civic,Practicality,6.0
+174,3,6,Civic,Polish,6.0
+175,3,6,Civic,Technical Depth,6.0
+176,3,32,Civic,Creativity,5.0
+177,3,32,Civic,Practicality,5.0
+178,3,32,Civic,Polish,5.0
+179,3,32,Civic,Technical Depth,5.0
+180,10,29,Civic,Creativity,7.0
+181,10,29,Civic,Practicality,7.0
+182,10,29,Civic,Polish,7.0
+183,10,29,Civic,Technical Depth,7.0
+184,10,27,Civic,Creativity,5.5
+185,10,27,Civic,Practicality,5.5
+186,10,27,Civic,Polish,5.5
+187,10,27,Civic,Technical Depth,5.5
+188,10,25,Civic,Creativity,4.5
+189,10,25,Civic,Practicality,4.5
+190,10,25,Civic,Polish,4.5
+191,10,25,Civic,Technical Depth,4.5
+192,10,24,Civic,Creativity,6.25
+193,10,24,Civic,Practicality,6.25
+194,10,24,Civic,Polish,6.25
+195,10,24,Civic,Technical Depth,6.25
+196,10,18,Civic,Creativity,7.75
+197,10,18,Civic,Practicality,7.75
+198,10,18,Civic,Polish,7.75
+199,10,18,Civic,Technical Depth,7.75
+200,10,17,Civic,Creativity,6.0
+201,10,17,Civic,Practicality,6.0
+202,10,17,Civic,Polish,6.0
+203,10,17,Civic,Technical Depth,6.0
+204,10,7,Civic,Creativity,6.25
+205,10,7,Civic,Practicality,6.25
+206,10,7,Civic,Polish,6.25
+207,10,7,Civic,Technical Depth,6.25
+208,10,6,Civic,Creativity,7.75
+209,10,6,Civic,Practicality,7.75
+210,10,6,Civic,Polish,7.75
+211,10,6,Civic,Technical Depth,7.75
+212,10,32,Civic,Creativity,8.75
+213,10,32,Civic,Practicality,8.75
+214,10,32,Civic,Polish,8.75
+215,10,32,Civic,Technical Depth,8.75
+216,15,29,Civic,Creativity,8.0
+217,15,29,Civic,Practicality,8.0
+218,15,29,Civic,Polish,8.0
+219,15,29,Civic,Technical Depth,8.0
+220,15,27,Civic,Creativity,6.5
+221,15,27,Civic,Practicality,6.5
+222,15,27,Civic,Polish,6.5
+223,15,27,Civic,Technical Depth,6.5
+224,15,25,Civic,Creativity,6.5
+225,15,25,Civic,Practicality,6.5
+226,15,25,Civic,Polish,6.5
+227,15,25,Civic,Technical Depth,6.5
+228,15,24,Civic,Creativity,5.0
+229,15,24,Civic,Practicality,5.0
+230,15,24,Civic,Polish,5.0
+231,15,24,Civic,Technical Depth,5.0
+232,15,18,Civic,Creativity,7.5
+233,15,18,Civic,Practicality,7.5
+234,15,18,Civic,Polish,7.5
+235,15,18,Civic,Technical Depth,7.5
+236,15,17,Civic,Creativity,7.25
+237,15,17,Civic,Practicality,7.25
+238,15,17,Civic,Polish,7.25
+239,15,17,Civic,Technical Depth,7.25
+240,15,7,Civic,Creativity,6.25
+241,15,7,Civic,Practicality,6.25
+242,15,7,Civic,Polish,6.25
+243,15,7,Civic,Technical Depth,6.25
+244,15,6,Civic,Creativity,8.25
+245,15,6,Civic,Practicality,8.25
+246,15,6,Civic,Polish,8.25
+247,15,6,Civic,Technical Depth,8.25
+248,15,32,Civic,Creativity,7.5
+249,15,32,Civic,Practicality,7.5
+250,15,32,Civic,Polish,7.5
+251,15,32,Civic,Technical Depth,7.5
+252,28,29,Civic,Creativity,8.5
+253,28,29,Civic,Practicality,8.5
+254,28,29,Civic,Polish,8.5
+255,28,29,Civic,Technical Depth,8.5
+256,28,27,Civic,Creativity,8.75
+257,28,27,Civic,Practicality,8.75
+258,28,27,Civic,Polish,8.75
+259,28,27,Civic,Technical Depth,8.75
+260,28,25,Civic,Creativity,4.75
+261,28,25,Civic,Practicality,4.75
+262,28,25,Civic,Polish,4.75
+263,28,25,Civic,Technical Depth,4.75
+264,28,24,Civic,Creativity,7.25
+265,28,24,Civic,Practicality,7.25
+266,28,24,Civic,Polish,7.25
+267,28,24,Civic,Technical Depth,7.25
+268,28,18,Civic,Creativity,7.5
+269,28,18,Civic,Practicality,7.5
+270,28,18,Civic,Polish,7.5
+271,28,18,Civic,Technical Depth,7.5
+272,28,17,Civic,Creativity,6.75
+273,28,17,Civic,Practicality,6.75
+274,28,17,Civic,Polish,6.75
+275,28,17,Civic,Technical Depth,6.75
+276,28,7,Civic,Creativity,7.0
+277,28,7,Civic,Practicality,7.0
+278,28,7,Civic,Polish,7.0
+279,28,7,Civic,Technical Depth,7.0
+280,28,6,Civic,Creativity,8.0
+281,28,6,Civic,Practicality,8.0
+282,28,6,Civic,Polish,8.0
+283,28,6,Civic,Technical Depth,8.0
+284,28,32,Civic,Creativity,8.25
+285,28,32,Civic,Practicality,8.25
+286,28,32,Civic,Polish,8.25
+287,28,32,Civic,Technical Depth,8.25
+288,35,29,Civic,Creativity,8.25
+289,35,29,Civic,Practicality,8.25
+290,35,29,Civic,Polish,8.25
+291,35,29,Civic,Technical Depth,8.25
+292,35,27,Civic,Creativity,7.25
+293,35,27,Civic,Practicality,7.25
+294,35,27,Civic,Polish,7.25
+295,35,27,Civic,Technical Depth,7.25
+296,35,25,Civic,Creativity,4.25
+297,35,25,Civic,Practicality,4.25
+298,35,25,Civic,Polish,4.25
+299,35,25,Civic,Technical Depth,4.25
+300,35,24,Civic,Creativity,6.0
+301,35,24,Civic,Practicality,6.0
+302,35,24,Civic,Polish,6.0
+303,35,24,Civic,Technical Depth,6.0
+304,35,18,Civic,Creativity,10.0
+305,35,18,Civic,Practicality,10.0
+306,35,18,Civic,Polish,10.0
+307,35,18,Civic,Technical Depth,10.0
+308,35,17,Civic,Creativity,6.0
+309,35,17,Civic,Practicality,6.0
+310,35,17,Civic,Polish,6.0
+311,35,17,Civic,Technical Depth,6.0
+312,35,7,Civic,Creativity,5.0
+313,35,7,Civic,Practicality,5.0
+314,35,7,Civic,Polish,5.0
+315,35,7,Civic,Technical Depth,5.0
+316,35,6,Civic,Creativity,7.5
+317,35,6,Civic,Practicality,7.5
+318,35,6,Civic,Polish,7.5
+319,35,6,Civic,Technical Depth,7.5
+320,35,32,Civic,Creativity,7.25
+321,35,32,Civic,Practicality,7.25
+322,35,32,Civic,Polish,7.25
+323,35,32,Civic,Technical Depth,7.25
+324,41,29,Civic,Creativity,5.0
+325,41,29,Civic,Practicality,5.0
+326,41,29,Civic,Polish,5.0
+327,41,29,Civic,Technical Depth,5.0
+328,41,27,Civic,Creativity,4.25
+329,41,27,Civic,Practicality,4.25
+330,41,27,Civic,Polish,4.25
+331,41,27,Civic,Technical Depth,4.25
+332,41,25,Civic,Creativity,3.75
+333,41,25,Civic,Practicality,3.75
+334,41,25,Civic,Polish,3.75
+335,41,25,Civic,Technical Depth,3.75
+336,41,24,Civic,Creativity,5.25
+337,41,24,Civic,Practicality,5.25
+338,41,24,Civic,Polish,5.25
+339,41,24,Civic,Technical Depth,5.25
+340,41,18,Civic,Creativity,6.75
+341,41,18,Civic,Practicality,6.75
+342,41,18,Civic,Polish,6.75
+343,41,18,Civic,Technical Depth,6.75
+344,41,17,Civic,Creativity,4.25
+345,41,17,Civic,Practicality,4.25
+346,41,17,Civic,Polish,4.25
+347,41,17,Civic,Technical Depth,4.25
+348,41,7,Civic,Creativity,3.75
+349,41,7,Civic,Practicality,3.75
+350,41,7,Civic,Polish,3.75
+351,41,7,Civic,Technical Depth,3.75
+352,41,6,Civic,Creativity,5.5
+353,41,6,Civic,Practicality,5.5
+354,41,6,Civic,Polish,5.5
+355,41,6,Civic,Technical Depth,5.5
+356,41,32,Civic,Creativity,5.25
+357,41,32,Civic,Practicality,5.25
+358,41,32,Civic,Polish,5.25
+359,41,32,Civic,Technical Depth,5.25
+360,43,29,Civic,Creativity,6.0
+361,43,29,Civic,Practicality,6.0
+362,43,29,Civic,Polish,6.0
+363,43,29,Civic,Technical Depth,6.0
+364,43,27,Civic,Creativity,4.0
+365,43,27,Civic,Practicality,4.0
+366,43,27,Civic,Polish,4.0
+367,43,27,Civic,Technical Depth,4.0
+368,43,25,Civic,Creativity,2.25
+369,43,25,Civic,Practicality,2.25
+370,43,25,Civic,Polish,2.25
+371,43,25,Civic,Technical Depth,2.25
+372,43,24,Civic,Creativity,4.75
+373,43,24,Civic,Practicality,4.75
+374,43,24,Civic,Polish,4.75
+375,43,24,Civic,Technical Depth,4.75
+376,43,18,Civic,Creativity,6.25
+377,43,18,Civic,Practicality,6.25
+378,43,18,Civic,Polish,6.25
+379,43,18,Civic,Technical Depth,6.25
+380,43,17,Civic,Creativity,2.0
+381,43,17,Civic,Practicality,2.0
+382,43,17,Civic,Polish,2.0
+383,43,17,Civic,Technical Depth,2.0
+384,43,7,Civic,Creativity,3.25
+385,43,7,Civic,Practicality,3.25
+386,43,7,Civic,Polish,3.25
+387,43,7,Civic,Technical Depth,3.25
+388,43,6,Civic,Creativity,8.25
+389,43,6,Civic,Practicality,8.25
+390,43,6,Civic,Polish,8.25
+391,43,6,Civic,Technical Depth,8.25
+392,43,32,Civic,Creativity,6.0
+393,43,32,Civic,Practicality,6.0
+394,43,32,Civic,Polish,6.0
+395,43,32,Civic,Technical Depth,6.0
+396,32,29,Civic,Creativity,8.0
+397,32,29,Civic,Practicality,8.0
+398,32,29,Civic,Polish,8.0
+399,32,29,Civic,Technical Depth,8.0
+400,32,27,Civic,Creativity,
+401,32,27,Civic,Practicality,
+402,32,27,Civic,Polish,
+403,32,27,Civic,Technical Depth,
+404,32,25,Civic,Creativity,
+405,32,25,Civic,Practicality,
+406,32,25,Civic,Polish,
+407,32,25,Civic,Technical Depth,
+408,32,24,Civic,Creativity,7.0
+409,32,24,Civic,Practicality,7.0
+410,32,24,Civic,Polish,7.0
+411,32,24,Civic,Technical Depth,7.0
+412,32,18,Civic,Creativity,
+413,32,18,Civic,Practicality,
+414,32,18,Civic,Polish,
+415,32,18,Civic,Technical Depth,
+416,32,17,Civic,Creativity,
+417,32,17,Civic,Practicality,
+418,32,17,Civic,Polish,
+419,32,17,Civic,Technical Depth,
+420,32,7,Civic,Creativity,6.5
+421,32,7,Civic,Practicality,6.5
+422,32,7,Civic,Polish,6.5
+423,32,7,Civic,Technical Depth,6.5
+424,32,6,Civic,Creativity,8.25
+425,32,6,Civic,Practicality,8.25
+426,32,6,Civic,Polish,8.25
+427,32,6,Civic,Technical Depth,8.25
+428,32,32,Civic,Creativity,7.5
+429,32,32,Civic,Practicality,7.5
+430,32,32,Civic,Polish,7.5
+431,32,32,Civic,Technical Depth,7.5
+432,15,27,FinTech,Creativity,1.75
+433,15,27,FinTech,Practicality,1.75
+434,15,27,FinTech,Polish,1.75
+435,15,27,FinTech,Technical Depth,1.75
+436,15,25,FinTech,Creativity,2.25
+437,15,25,FinTech,Practicality,2.25
+438,15,25,FinTech,Polish,2.25
+439,15,25,FinTech,Technical Depth,2.25
+440,15,19,FinTech,Creativity,2.0
+441,15,19,FinTech,Practicality,2.0
+442,15,19,FinTech,Polish,2.0
+443,15,19,FinTech,Technical Depth,2.0
+444,15,18,FinTech,Creativity,2.5
+445,15,18,FinTech,Practicality,2.5
+446,15,18,FinTech,Polish,2.5
+447,15,18,FinTech,Technical Depth,2.5
+448,15,17,FinTech,Creativity,4.0
+449,15,17,FinTech,Practicality,4.0
+450,15,17,FinTech,Polish,4.0
+451,15,17,FinTech,Technical Depth,4.0
+452,15,15,FinTech,Creativity,5.75
+453,15,15,FinTech,Practicality,5.75
+454,15,15,FinTech,Polish,5.75
+455,15,15,FinTech,Technical Depth,5.75
+456,15,12,FinTech,Creativity,5.0
+457,15,12,FinTech,Practicality,5.0
+458,15,12,FinTech,Polish,5.0
+459,15,12,FinTech,Technical Depth,5.0
+460,15,4,FinTech,Creativity,6.25
+461,15,4,FinTech,Practicality,6.25
+462,15,4,FinTech,Polish,6.25
+463,15,4,FinTech,Technical Depth,6.25
+464,15,3,FinTech,Creativity,5.75
+465,15,3,FinTech,Practicality,5.75
+466,15,3,FinTech,Polish,5.75
+467,15,3,FinTech,Technical Depth,5.75
+468,10,27,FinTech,Creativity,7.0
+469,10,27,FinTech,Practicality,7.0
+470,10,27,FinTech,Polish,7.0
+471,10,27,FinTech,Technical Depth,7.0
+472,10,25,FinTech,Creativity,4.0
+473,10,25,FinTech,Practicality,4.0
+474,10,25,FinTech,Polish,4.0
+475,10,25,FinTech,Technical Depth,4.0
+476,10,19,FinTech,Creativity,5.0
+477,10,19,FinTech,Practicality,5.0
+478,10,19,FinTech,Polish,5.0
+479,10,19,FinTech,Technical Depth,5.0
+480,10,18,FinTech,Creativity,6.0
+481,10,18,FinTech,Practicality,6.0
+482,10,18,FinTech,Polish,6.0
+483,10,18,FinTech,Technical Depth,6.0
+484,10,17,FinTech,Creativity,4.0
+485,10,17,FinTech,Practicality,4.0
+486,10,17,FinTech,Polish,4.0
+487,10,17,FinTech,Technical Depth,4.0
+488,10,15,FinTech,Creativity,6.5
+489,10,15,FinTech,Practicality,6.5
+490,10,15,FinTech,Polish,6.5
+491,10,15,FinTech,Technical Depth,6.5
+492,10,12,FinTech,Creativity,6.75
+493,10,12,FinTech,Practicality,6.75
+494,10,12,FinTech,Polish,6.75
+495,10,12,FinTech,Technical Depth,6.75
+496,10,4,FinTech,Creativity,6.0
+497,10,4,FinTech,Practicality,6.0
+498,10,4,FinTech,Polish,6.0
+499,10,4,FinTech,Technical Depth,6.0
+500,10,3,FinTech,Creativity,5.75
+501,10,3,FinTech,Practicality,5.75
+502,10,3,FinTech,Polish,5.75
+503,10,3,FinTech,Technical Depth,5.75
+504,43,27,FinTech,Creativity,6.25
+505,43,27,FinTech,Practicality,6.25
+506,43,27,FinTech,Polish,6.25
+507,43,27,FinTech,Technical Depth,6.25
+508,43,25,FinTech,Creativity,6.25
+509,43,25,FinTech,Practicality,6.25
+510,43,25,FinTech,Polish,6.25
+511,43,25,FinTech,Technical Depth,6.25
+512,43,19,FinTech,Creativity,5.75
+513,43,19,FinTech,Practicality,5.75
+514,43,19,FinTech,Polish,5.75
+515,43,19,FinTech,Technical Depth,5.75
+516,43,18,FinTech,Creativity,7.0
+517,43,18,FinTech,Practicality,7.0
+518,43,18,FinTech,Polish,7.0
+519,43,18,FinTech,Technical Depth,7.0
+520,43,17,FinTech,Creativity,6.25
+521,43,17,FinTech,Practicality,6.25
+522,43,17,FinTech,Polish,6.25
+523,43,17,FinTech,Technical Depth,6.25
+524,43,15,FinTech,Creativity,7.25
+525,43,15,FinTech,Practicality,7.25
+526,43,15,FinTech,Polish,7.25
+527,43,15,FinTech,Technical Depth,7.25
+528,43,12,FinTech,Creativity,7.0
+529,43,12,FinTech,Practicality,7.0
+530,43,12,FinTech,Polish,7.0
+531,43,12,FinTech,Technical Depth,7.0
+532,43,4,FinTech,Creativity,7.75
+533,43,4,FinTech,Practicality,7.75
+534,43,4,FinTech,Polish,7.75
+535,43,4,FinTech,Technical Depth,7.75
+536,43,3,FinTech,Creativity,7.0
+537,43,3,FinTech,Practicality,7.0
+538,43,3,FinTech,Polish,7.0
+539,43,3,FinTech,Technical Depth,7.0
+540,55,27,FinTech,Creativity,4.25
+541,55,27,FinTech,Practicality,4.25
+542,55,27,FinTech,Polish,4.25
+543,55,27,FinTech,Technical Depth,4.25
+544,55,25,FinTech,Creativity,3.75
+545,55,25,FinTech,Practicality,3.75
+546,55,25,FinTech,Polish,3.75
+547,55,25,FinTech,Technical Depth,3.75
+548,55,19,FinTech,Creativity,5.0
+549,55,19,FinTech,Practicality,5.0
+550,55,19,FinTech,Polish,5.0
+551,55,19,FinTech,Technical Depth,5.0
+552,55,18,FinTech,Creativity,6.75
+553,55,18,FinTech,Practicality,6.75
+554,55,18,FinTech,Polish,6.75
+555,55,18,FinTech,Technical Depth,6.75
+556,55,17,FinTech,Creativity,4.25
+557,55,17,FinTech,Practicality,4.25
+558,55,17,FinTech,Polish,4.25
+559,55,17,FinTech,Technical Depth,4.25
+560,55,15,FinTech,Creativity,6.0
+561,55,15,FinTech,Practicality,6.0
+562,55,15,FinTech,Polish,6.0
+563,55,15,FinTech,Technical Depth,6.0
+564,55,12,FinTech,Creativity,5.75
+565,55,12,FinTech,Practicality,5.75
+566,55,12,FinTech,Polish,5.75
+567,55,12,FinTech,Technical Depth,5.75
+568,55,4,FinTech,Creativity,7.25
+569,55,4,FinTech,Practicality,7.25
+570,55,4,FinTech,Polish,7.25
+571,55,4,FinTech,Technical Depth,7.25
+572,55,3,FinTech,Creativity,5.5
+573,55,3,FinTech,Practicality,5.5
+574,55,3,FinTech,Polish,5.5
+575,55,3,FinTech,Technical Depth,5.5
+576,56,27,FinTech,Creativity,5.0
+577,56,27,FinTech,Practicality,5.0
+578,56,27,FinTech,Polish,5.0
+579,56,27,FinTech,Technical Depth,5.0
+580,56,25,FinTech,Creativity,4.5
+581,56,25,FinTech,Practicality,4.5
+582,56,25,FinTech,Polish,4.5
+583,56,25,FinTech,Technical Depth,4.5
+584,56,19,FinTech,Creativity,5.25
+585,56,19,FinTech,Practicality,5.25
+586,56,19,FinTech,Polish,5.25
+587,56,19,FinTech,Technical Depth,5.25
+588,56,18,FinTech,Creativity,7.5
+589,56,18,FinTech,Practicality,7.5
+590,56,18,FinTech,Polish,7.5
+591,56,18,FinTech,Technical Depth,7.5
+592,56,17,FinTech,Creativity,6.5
+593,56,17,FinTech,Practicality,6.5
+594,56,17,FinTech,Polish,6.5
+595,56,17,FinTech,Technical Depth,6.5
+596,56,15,FinTech,Creativity,6.25
+597,56,15,FinTech,Practicality,6.25
+598,56,15,FinTech,Polish,6.25
+599,56,15,FinTech,Technical Depth,6.25
+600,56,12,FinTech,Creativity,7.75
+601,56,12,FinTech,Practicality,7.75
+602,56,12,FinTech,Polish,7.75
+603,56,12,FinTech,Technical Depth,7.75
+604,56,4,FinTech,Creativity,9.0
+605,56,4,FinTech,Practicality,9.0
+606,56,4,FinTech,Polish,9.0
+607,56,4,FinTech,Technical Depth,9.0
+608,56,3,FinTech,Creativity,6.75
+609,56,3,FinTech,Practicality,6.75
+610,56,3,FinTech,Polish,6.75
+611,56,3,FinTech,Technical Depth,6.75
+612,32,15,Game,Creativity,9.75
+613,32,15,Game,Practicality,9.75
+614,32,15,Game,Polish,9.75
+615,32,15,Game,Technical Depth,9.75
+616,32,8,Game,Creativity,7.0
+617,32,8,Game,Practicality,7.0
+618,32,8,Game,Polish,7.0
+619,32,8,Game,Technical Depth,7.0
+620,35,15,Game,Creativity,6.0
+621,35,15,Game,Practicality,6.0
+622,35,15,Game,Polish,6.0
+623,35,15,Game,Technical Depth,6.0
+624,35,8,Game,Creativity,5.5
+625,35,8,Game,Practicality,5.5
+626,35,8,Game,Polish,5.5
+627,35,8,Game,Technical Depth,5.5
+628,2,29,Garverick,Creativity,8.75
+629,2,29,Garverick,Practicality,8.75
+630,2,29,Garverick,Polish,8.75
+631,2,29,Garverick,Technical Depth,8.75
+632,2,26,Garverick,Creativity,10.0
+633,2,26,Garverick,Practicality,10.0
+634,2,26,Garverick,Polish,10.0
+635,2,26,Garverick,Technical Depth,10.0
+636,2,24,Garverick,Creativity,6.25
+637,2,24,Garverick,Practicality,6.25
+638,2,24,Garverick,Polish,6.25
+639,2,24,Garverick,Technical Depth,6.25
+640,2,22,Garverick,Creativity,10.0
+641,2,22,Garverick,Practicality,10.0
+642,2,22,Garverick,Polish,10.0
+643,2,22,Garverick,Technical Depth,10.0
+644,2,20,Garverick,Creativity,10.0
+645,2,20,Garverick,Practicality,10.0
+646,2,20,Garverick,Polish,10.0
+647,2,20,Garverick,Technical Depth,10.0
+648,2,18,Garverick,Creativity,6.25
+649,2,18,Garverick,Practicality,6.25
+650,2,18,Garverick,Polish,6.25
+651,2,18,Garverick,Technical Depth,6.25
+652,2,15,Garverick,Creativity,10.0
+653,2,15,Garverick,Practicality,10.0
+654,2,15,Garverick,Polish,10.0
+655,2,15,Garverick,Technical Depth,10.0
+656,2,12,Garverick,Creativity,7.5
+657,2,12,Garverick,Practicality,7.5
+658,2,12,Garverick,Polish,7.5
+659,2,12,Garverick,Technical Depth,7.5
+660,2,11,Garverick,Creativity,7.5
+661,2,11,Garverick,Practicality,7.5
+662,2,11,Garverick,Polish,7.5
+663,2,11,Garverick,Technical Depth,7.5
+664,2,10,Garverick,Creativity,8.75
+665,2,10,Garverick,Practicality,8.75
+666,2,10,Garverick,Polish,8.75
+667,2,10,Garverick,Technical Depth,8.75
+668,2,6,Garverick,Creativity,8.75
+669,2,6,Garverick,Practicality,8.75
+670,2,6,Garverick,Polish,8.75
+671,2,6,Garverick,Technical Depth,8.75
+672,2,3,Garverick,Creativity,7.5
+673,2,3,Garverick,Practicality,7.5
+674,2,3,Garverick,Polish,7.5
+675,2,3,Garverick,Technical Depth,7.5
+676,2,2,Garverick,Creativity,6.25
+677,2,2,Garverick,Practicality,6.25
+678,2,2,Garverick,Polish,6.25
+679,2,2,Garverick,Technical Depth,6.25
+680,2,1,Garverick,Creativity,8.75
+681,2,1,Garverick,Practicality,8.75
+682,2,1,Garverick,Polish,8.75
+683,2,1,Garverick,Technical Depth,8.75
+684,2,14,Garverick,Creativity,6.25
+685,2,14,Garverick,Practicality,6.25
+686,2,14,Garverick,Polish,6.25
+687,2,14,Garverick,Technical Depth,6.25
+688,12,29,Garverick,Creativity,4.5
+689,12,29,Garverick,Practicality,4.5
+690,12,29,Garverick,Polish,4.5
+691,12,29,Garverick,Technical Depth,4.5
+692,12,26,Garverick,Creativity,8.25
+693,12,26,Garverick,Practicality,8.25
+694,12,26,Garverick,Polish,8.25
+695,12,26,Garverick,Technical Depth,8.25
+696,12,24,Garverick,Creativity,4.25
+697,12,24,Garverick,Practicality,4.25
+698,12,24,Garverick,Polish,4.25
+699,12,24,Garverick,Technical Depth,4.25
+700,12,22,Garverick,Creativity,7.0
+701,12,22,Garverick,Practicality,7.0
+702,12,22,Garverick,Polish,7.0
+703,12,22,Garverick,Technical Depth,7.0
+704,12,20,Garverick,Creativity,8.0
+705,12,20,Garverick,Practicality,8.0
+706,12,20,Garverick,Polish,8.0
+707,12,20,Garverick,Technical Depth,8.0
+708,12,18,Garverick,Creativity,7.0
+709,12,18,Garverick,Practicality,7.0
+710,12,18,Garverick,Polish,7.0
+711,12,18,Garverick,Technical Depth,7.0
+712,12,15,Garverick,Creativity,8.0
+713,12,15,Garverick,Practicality,8.0
+714,12,15,Garverick,Polish,8.0
+715,12,15,Garverick,Technical Depth,8.0
+716,12,12,Garverick,Creativity,8.25
+717,12,12,Garverick,Practicality,8.25
+718,12,12,Garverick,Polish,8.25
+719,12,12,Garverick,Technical Depth,8.25
+720,12,11,Garverick,Creativity,6.75
+721,12,11,Garverick,Practicality,6.75
+722,12,11,Garverick,Polish,6.75
+723,12,11,Garverick,Technical Depth,6.75
+724,12,10,Garverick,Creativity,7.0
+725,12,10,Garverick,Practicality,7.0
+726,12,10,Garverick,Polish,7.0
+727,12,10,Garverick,Technical Depth,7.0
+728,12,6,Garverick,Creativity,8.0
+729,12,6,Garverick,Practicality,8.0
+730,12,6,Garverick,Polish,8.0
+731,12,6,Garverick,Technical Depth,8.0
+732,12,3,Garverick,Creativity,8.0
+733,12,3,Garverick,Practicality,8.0
+734,12,3,Garverick,Polish,8.0
+735,12,3,Garverick,Technical Depth,8.0
+736,12,2,Garverick,Creativity,7.0
+737,12,2,Garverick,Practicality,7.0
+738,12,2,Garverick,Polish,7.0
+739,12,2,Garverick,Technical Depth,7.0
+740,12,1,Garverick,Creativity,9.25
+741,12,1,Garverick,Practicality,9.25
+742,12,1,Garverick,Polish,9.25
+743,12,1,Garverick,Technical Depth,9.25
+744,12,14,Garverick,Creativity,6.75
+745,12,14,Garverick,Practicality,6.75
+746,12,14,Garverick,Polish,6.75
+747,12,14,Garverick,Technical Depth,6.75
+748,59,29,Garverick,Creativity,7.75
+749,59,29,Garverick,Practicality,7.75
+750,59,29,Garverick,Polish,7.75
+751,59,29,Garverick,Technical Depth,7.75
+752,59,26,Garverick,Creativity,8.0
+753,59,26,Garverick,Practicality,8.0
+754,59,26,Garverick,Polish,8.0
+755,59,26,Garverick,Technical Depth,8.0
+756,59,24,Garverick,Creativity,5.25
+757,59,24,Garverick,Practicality,5.25
+758,59,24,Garverick,Polish,5.25
+759,59,24,Garverick,Technical Depth,5.25
+760,59,22,Garverick,Creativity,8.0
+761,59,22,Garverick,Practicality,8.0
+762,59,22,Garverick,Polish,8.0
+763,59,22,Garverick,Technical Depth,8.0
+764,59,20,Garverick,Creativity,8.25
+765,59,20,Garverick,Practicality,8.25
+766,59,20,Garverick,Polish,8.25
+767,59,20,Garverick,Technical Depth,8.25
+768,59,18,Garverick,Creativity,7.75
+769,59,18,Garverick,Practicality,7.75
+770,59,18,Garverick,Polish,7.75
+771,59,18,Garverick,Technical Depth,7.75
+772,59,15,Garverick,Creativity,8.5
+773,59,15,Garverick,Practicality,8.5
+774,59,15,Garverick,Polish,8.5
+775,59,15,Garverick,Technical Depth,8.5
+776,59,12,Garverick,Creativity,9.5
+777,59,12,Garverick,Practicality,9.5
+778,59,12,Garverick,Polish,9.5
+779,59,12,Garverick,Technical Depth,9.5
+780,59,11,Garverick,Creativity,9.25
+781,59,11,Garverick,Practicality,9.25
+782,59,11,Garverick,Polish,9.25
+783,59,11,Garverick,Technical Depth,9.25
+784,59,10,Garverick,Creativity,9.75
+785,59,10,Garverick,Practicality,9.75
+786,59,10,Garverick,Polish,9.75
+787,59,10,Garverick,Technical Depth,9.75
+788,59,6,Garverick,Creativity,8.0
+789,59,6,Garverick,Practicality,8.0
+790,59,6,Garverick,Polish,8.0
+791,59,6,Garverick,Technical Depth,8.0
+792,59,3,Garverick,Creativity,8.75
+793,59,3,Garverick,Practicality,8.75
+794,59,3,Garverick,Polish,8.75
+795,59,3,Garverick,Technical Depth,8.75
+796,59,2,Garverick,Creativity,6.75
+797,59,2,Garverick,Practicality,6.75
+798,59,2,Garverick,Polish,6.75
+799,59,2,Garverick,Technical Depth,6.75
+800,59,1,Garverick,Creativity,6.75
+801,59,1,Garverick,Practicality,6.75
+802,59,1,Garverick,Polish,6.75
+803,59,1,Garverick,Technical Depth,6.75
+804,59,14,Garverick,Creativity,8.25
+805,59,14,Garverick,Practicality,8.25
+806,59,14,Garverick,Polish,8.25
+807,59,14,Garverick,Technical Depth,8.25
+808,28,31,Hardware,Creativity,0.0
+809,28,31,Hardware,Practicality,0.0
+810,28,31,Hardware,Polish,0.0
+811,28,31,Hardware,Technical Depth,0.0
+812,28,29,Hardware,Creativity,8.0
+813,28,29,Hardware,Practicality,8.0
+814,28,29,Hardware,Polish,8.0
+815,28,29,Hardware,Technical Depth,8.0
+816,28,26,Hardware,Creativity,8.5
+817,28,26,Hardware,Practicality,8.5
+818,28,26,Hardware,Polish,8.5
+819,28,26,Hardware,Technical Depth,8.5
+820,28,20,Hardware,Creativity,8.25
+821,28,20,Hardware,Practicality,8.25
+822,28,20,Hardware,Polish,8.25
+823,28,20,Hardware,Technical Depth,8.25
+824,28,18,Hardware,Creativity,7.5
+825,28,18,Hardware,Practicality,7.5
+826,28,18,Hardware,Polish,7.5
+827,28,18,Hardware,Technical Depth,7.5
+828,28,17,Hardware,Creativity,7.25
+829,28,17,Hardware,Practicality,7.25
+830,28,17,Hardware,Polish,7.25
+831,28,17,Hardware,Technical Depth,7.25
+832,28,16,Hardware,Creativity,8.5
+833,28,16,Hardware,Practicality,8.5
+834,28,16,Hardware,Polish,8.5
+835,28,16,Hardware,Technical Depth,8.5
+836,28,7,Hardware,Creativity,6.25
+837,28,7,Hardware,Practicality,6.25
+838,28,7,Hardware,Polish,6.25
+839,28,7,Hardware,Technical Depth,6.25
+840,28,1,Hardware,Creativity,9.75
+841,28,1,Hardware,Practicality,9.75
+842,28,1,Hardware,Polish,9.75
+843,28,1,Hardware,Technical Depth,9.75
+844,18,31,Hardware,Creativity,0.0
+845,18,31,Hardware,Practicality,0.0
+846,18,31,Hardware,Polish,0.0
+847,18,31,Hardware,Technical Depth,0.0
+848,18,29,Hardware,Creativity,7.25
+849,18,29,Hardware,Practicality,7.25
+850,18,29,Hardware,Polish,7.25
+851,18,29,Hardware,Technical Depth,7.25
+852,18,26,Hardware,Creativity,9.0
+853,18,26,Hardware,Practicality,9.0
+854,18,26,Hardware,Polish,9.0
+855,18,26,Hardware,Technical Depth,9.0
+856,18,20,Hardware,Creativity,8.5
+857,18,20,Hardware,Practicality,8.5
+858,18,20,Hardware,Polish,8.5
+859,18,20,Hardware,Technical Depth,8.5
+860,18,18,Hardware,Creativity,6.5
+861,18,18,Hardware,Practicality,6.5
+862,18,18,Hardware,Polish,6.5
+863,18,18,Hardware,Technical Depth,6.5
+864,18,17,Hardware,Creativity,5.25
+865,18,17,Hardware,Practicality,5.25
+866,18,17,Hardware,Polish,5.25
+867,18,17,Hardware,Technical Depth,5.25
+868,18,16,Hardware,Creativity,6.75
+869,18,16,Hardware,Practicality,6.75
+870,18,16,Hardware,Polish,6.75
+871,18,16,Hardware,Technical Depth,6.75
+872,18,7,Hardware,Creativity,5.25
+873,18,7,Hardware,Practicality,5.25
+874,18,7,Hardware,Polish,5.25
+875,18,7,Hardware,Technical Depth,5.25
+876,18,1,Hardware,Creativity,7.5
+877,18,1,Hardware,Practicality,7.5
+878,18,1,Hardware,Polish,7.5
+879,18,1,Hardware,Technical Depth,7.5
+880,41,31,Hardware,Creativity,
+881,41,31,Hardware,Practicality,
+882,41,31,Hardware,Polish,
+883,41,31,Hardware,Technical Depth,
+884,41,29,Hardware,Creativity,7.5
+885,41,29,Hardware,Practicality,7.5
+886,41,29,Hardware,Polish,7.5
+887,41,29,Hardware,Technical Depth,7.5
+888,41,26,Hardware,Creativity,7.25
+889,41,26,Hardware,Practicality,7.25
+890,41,26,Hardware,Polish,7.25
+891,41,26,Hardware,Technical Depth,7.25
+892,41,20,Hardware,Creativity,8.5
+893,41,20,Hardware,Practicality,8.5
+894,41,20,Hardware,Polish,8.5
+895,41,20,Hardware,Technical Depth,8.5
+896,41,18,Hardware,Creativity,7.75
+897,41,18,Hardware,Practicality,7.75
+898,41,18,Hardware,Polish,7.75
+899,41,18,Hardware,Technical Depth,7.75
+900,41,17,Hardware,Creativity,6.0
+901,41,17,Hardware,Practicality,6.0
+902,41,17,Hardware,Polish,6.0
+903,41,17,Hardware,Technical Depth,6.0
+904,41,16,Hardware,Creativity,7.0
+905,41,16,Hardware,Practicality,7.0
+906,41,16,Hardware,Polish,7.0
+907,41,16,Hardware,Technical Depth,7.0
+908,41,7,Hardware,Creativity,6.0
+909,41,7,Hardware,Practicality,6.0
+910,41,7,Hardware,Polish,6.0
+911,41,7,Hardware,Technical Depth,6.0
+912,41,1,Hardware,Creativity,8.75
+913,41,1,Hardware,Practicality,8.75
+914,41,1,Hardware,Polish,8.75
+915,41,1,Hardware,Technical Depth,8.75
+916,3,31,Hardware,Creativity,
+917,3,31,Hardware,Practicality,
+918,3,31,Hardware,Polish,
+919,3,31,Hardware,Technical Depth,
+920,3,29,Hardware,Creativity,6.0
+921,3,29,Hardware,Practicality,6.0
+922,3,29,Hardware,Polish,6.0
+923,3,29,Hardware,Technical Depth,6.0
+924,3,26,Hardware,Creativity,6.25
+925,3,26,Hardware,Practicality,6.25
+926,3,26,Hardware,Polish,6.25
+927,3,26,Hardware,Technical Depth,6.25
+928,3,20,Hardware,Creativity,6.75
+929,3,20,Hardware,Practicality,6.75
+930,3,20,Hardware,Polish,6.75
+931,3,20,Hardware,Technical Depth,6.75
+932,3,18,Hardware,Creativity,5.75
+933,3,18,Hardware,Practicality,5.75
+934,3,18,Hardware,Polish,5.75
+935,3,18,Hardware,Technical Depth,5.75
+936,3,17,Hardware,Creativity,2.5
+937,3,17,Hardware,Practicality,2.5
+938,3,17,Hardware,Polish,2.5
+939,3,17,Hardware,Technical Depth,2.5
+940,3,16,Hardware,Creativity,5.0
+941,3,16,Hardware,Practicality,5.0
+942,3,16,Hardware,Polish,5.0
+943,3,16,Hardware,Technical Depth,5.0
+944,3,7,Hardware,Creativity,3.75
+945,3,7,Hardware,Practicality,3.75
+946,3,7,Hardware,Polish,3.75
+947,3,7,Hardware,Technical Depth,3.75
+948,3,1,Hardware,Creativity,7.0
+949,3,1,Hardware,Practicality,7.0
+950,3,1,Hardware,Polish,7.0
+951,3,1,Hardware,Technical Depth,7.0
+952,33,29,Health,Creativity,5.75
+953,33,29,Health,Practicality,5.75
+954,33,29,Health,Polish,5.75
+955,33,29,Health,Technical Depth,5.75
+956,33,13,Health,Creativity,7.5
+957,33,13,Health,Practicality,7.5
+958,33,13,Health,Polish,7.5
+959,33,13,Health,Technical Depth,7.5
+960,33,10,Health,Creativity,8.5
+961,33,10,Health,Practicality,8.5
+962,33,10,Health,Polish,8.5
+963,33,10,Health,Technical Depth,8.5
+964,33,5,Health,Creativity,6.5
+965,33,5,Health,Practicality,6.5
+966,33,5,Health,Polish,6.5
+967,33,5,Health,Technical Depth,6.5
+968,33,32,Health,Creativity,8.25
+969,33,32,Health,Practicality,8.25
+970,33,32,Health,Polish,8.25
+971,33,32,Health,Technical Depth,8.25
+972,33,9,Health,Creativity,7.5
+973,33,9,Health,Practicality,7.5
+974,33,9,Health,Polish,7.5
+975,33,9,Health,Technical Depth,7.5
+976,33,30,Health,Creativity,7.25
+977,33,30,Health,Practicality,7.25
+978,33,30,Health,Polish,7.25
+979,33,30,Health,Technical Depth,7.25
+980,33,28,Health,Creativity,3.75
+981,33,28,Health,Practicality,3.75
+982,33,28,Health,Polish,3.75
+983,33,28,Health,Technical Depth,3.75
+984,45,29,Health,Creativity,9.0
+985,45,29,Health,Practicality,9.0
+986,45,29,Health,Polish,9.0
+987,45,29,Health,Technical Depth,9.0
+988,45,13,Health,Creativity,8.5
+989,45,13,Health,Practicality,8.5
+990,45,13,Health,Polish,8.5
+991,45,13,Health,Technical Depth,8.5
+992,45,10,Health,Creativity,8.75
+993,45,10,Health,Practicality,8.75
+994,45,10,Health,Polish,8.75
+995,45,10,Health,Technical Depth,8.75
+996,45,5,Health,Creativity,9.0
+997,45,5,Health,Practicality,9.0
+998,45,5,Health,Polish,9.0
+999,45,5,Health,Technical Depth,9.0
+1000,45,32,Health,Creativity,8.5
+1001,45,32,Health,Practicality,8.5
+1002,45,32,Health,Polish,8.5
+1003,45,32,Health,Technical Depth,8.5
+1004,45,9,Health,Creativity,8.0
+1005,45,9,Health,Practicality,8.0
+1006,45,9,Health,Polish,8.0
+1007,45,9,Health,Technical Depth,8.0
+1008,45,30,Health,Creativity,8.0
+1009,45,30,Health,Practicality,8.0
+1010,45,30,Health,Polish,8.0
+1011,45,30,Health,Technical Depth,8.0
+1012,45,28,Health,Creativity,9.0
+1013,45,28,Health,Practicality,9.0
+1014,45,28,Health,Polish,9.0
+1015,45,28,Health,Technical Depth,9.0
+1016,58,29,Health,Creativity,5.25
+1017,58,29,Health,Practicality,5.25
+1018,58,29,Health,Polish,5.25
+1019,58,29,Health,Technical Depth,5.25
+1020,58,13,Health,Creativity,6.25
+1021,58,13,Health,Practicality,6.25
+1022,58,13,Health,Polish,6.25
+1023,58,13,Health,Technical Depth,6.25
+1024,58,10,Health,Creativity,8.5
+1025,58,10,Health,Practicality,8.5
+1026,58,10,Health,Polish,8.5
+1027,58,10,Health,Technical Depth,8.5
+1028,58,5,Health,Creativity,7.0
+1029,58,5,Health,Practicality,7.0
+1030,58,5,Health,Polish,7.0
+1031,58,5,Health,Technical Depth,7.0
+1032,58,32,Health,Creativity,7.25
+1033,58,32,Health,Practicality,7.25
+1034,58,32,Health,Polish,7.25
+1035,58,32,Health,Technical Depth,7.25
+1036,58,9,Health,Creativity,6.5
+1037,58,9,Health,Practicality,6.5
+1038,58,9,Health,Polish,6.5
+1039,58,9,Health,Technical Depth,6.5
+1040,58,30,Health,Creativity,
+1041,58,30,Health,Practicality,
+1042,58,30,Health,Polish,
+1043,58,30,Health,Technical Depth,
+1044,58,28,Health,Creativity,
+1045,58,28,Health,Practicality,
+1046,58,28,Health,Polish,
+1047,58,28,Health,Technical Depth,
+1048,17,29,Maker,Creativity,5.25
+1049,17,29,Maker,Practicality,5.25
+1050,17,29,Maker,Polish,5.25
+1051,17,29,Maker,Technical Depth,5.25
+1052,17,26,Maker,Creativity,7.5
+1053,17,26,Maker,Practicality,7.5
+1054,17,26,Maker,Polish,7.5
+1055,17,26,Maker,Technical Depth,7.5
+1056,17,24,Maker,Creativity,9.0
+1057,17,24,Maker,Practicality,9.0
+1058,17,24,Maker,Polish,9.0
+1059,17,24,Maker,Technical Depth,9.0
+1060,17,22,Maker,Creativity,6.25
+1061,17,22,Maker,Practicality,6.25
+1062,17,22,Maker,Polish,6.25
+1063,17,22,Maker,Technical Depth,6.25
+1064,17,20,Maker,Creativity,7.5
+1065,17,20,Maker,Practicality,7.5
+1066,17,20,Maker,Polish,7.5
+1067,17,20,Maker,Technical Depth,7.5
+1068,17,18,Maker,Creativity,7.0
+1069,17,18,Maker,Practicality,7.0
+1070,17,18,Maker,Polish,7.0
+1071,17,18,Maker,Technical Depth,7.0
+1072,17,17,Maker,Creativity,5.25
+1073,17,17,Maker,Practicality,5.25
+1074,17,17,Maker,Polish,5.25
+1075,17,17,Maker,Technical Depth,5.25
+1076,17,16,Maker,Creativity,7.25
+1077,17,16,Maker,Practicality,7.25
+1078,17,16,Maker,Polish,7.25
+1079,17,16,Maker,Technical Depth,7.25
+1080,17,15,Maker,Creativity,7.75
+1081,17,15,Maker,Practicality,7.75
+1082,17,15,Maker,Polish,7.75
+1083,17,15,Maker,Technical Depth,7.75
+1084,17,11,Maker,Creativity,6.75
+1085,17,11,Maker,Practicality,6.75
+1086,17,11,Maker,Polish,6.75
+1087,17,11,Maker,Technical Depth,6.75
+1088,17,7,Maker,Creativity,5.5
+1089,17,7,Maker,Practicality,5.5
+1090,17,7,Maker,Polish,5.5
+1091,17,7,Maker,Technical Depth,5.5
+1092,17,5,Maker,Creativity,6.5
+1093,17,5,Maker,Practicality,6.5
+1094,17,5,Maker,Polish,6.5
+1095,17,5,Maker,Technical Depth,6.5
+1096,17,2,Maker,Creativity,4.5
+1097,17,2,Maker,Practicality,4.5
+1098,17,2,Maker,Polish,4.5
+1099,17,2,Maker,Technical Depth,4.5
+1100,17,1,Maker,Creativity,8.0
+1101,17,1,Maker,Practicality,8.0
+1102,17,1,Maker,Polish,8.0
+1103,17,1,Maker,Technical Depth,8.0
+1104,40,29,Maker,Creativity,9.75
+1105,40,29,Maker,Practicality,9.75
+1106,40,29,Maker,Polish,9.75
+1107,40,29,Maker,Technical Depth,9.75
+1108,40,26,Maker,Creativity,9.0
+1109,40,26,Maker,Practicality,9.0
+1110,40,26,Maker,Polish,9.0
+1111,40,26,Maker,Technical Depth,9.0
+1112,40,24,Maker,Creativity,3.5
+1113,40,24,Maker,Practicality,3.5
+1114,40,24,Maker,Polish,3.5
+1115,40,24,Maker,Technical Depth,3.5
+1116,40,22,Maker,Creativity,6.5
+1117,40,22,Maker,Practicality,6.5
+1118,40,22,Maker,Polish,6.5
+1119,40,22,Maker,Technical Depth,6.5
+1120,40,20,Maker,Creativity,8.5
+1121,40,20,Maker,Practicality,8.5
+1122,40,20,Maker,Polish,8.5
+1123,40,20,Maker,Technical Depth,8.5
+1124,40,18,Maker,Creativity,8.0
+1125,40,18,Maker,Practicality,8.0
+1126,40,18,Maker,Polish,8.0
+1127,40,18,Maker,Technical Depth,8.0
+1128,40,17,Maker,Creativity,7.5
+1129,40,17,Maker,Practicality,7.5
+1130,40,17,Maker,Polish,7.5
+1131,40,17,Maker,Technical Depth,7.5
+1132,40,16,Maker,Creativity,7.0
+1133,40,16,Maker,Practicality,7.0
+1134,40,16,Maker,Polish,7.0
+1135,40,16,Maker,Technical Depth,7.0
+1136,40,15,Maker,Creativity,9.5
+1137,40,15,Maker,Practicality,9.5
+1138,40,15,Maker,Polish,9.5
+1139,40,15,Maker,Technical Depth,9.5
+1140,40,11,Maker,Creativity,7.25
+1141,40,11,Maker,Practicality,7.25
+1142,40,11,Maker,Polish,7.25
+1143,40,11,Maker,Technical Depth,7.25
+1144,40,7,Maker,Creativity,4.5
+1145,40,7,Maker,Practicality,4.5
+1146,40,7,Maker,Polish,4.5
+1147,40,7,Maker,Technical Depth,4.5
+1148,40,5,Maker,Creativity,5.5
+1149,40,5,Maker,Practicality,5.5
+1150,40,5,Maker,Polish,5.5
+1151,40,5,Maker,Technical Depth,5.5
+1152,40,2,Maker,Creativity,8.5
+1153,40,2,Maker,Practicality,8.5
+1154,40,2,Maker,Polish,8.5
+1155,40,2,Maker,Technical Depth,8.5
+1156,40,1,Maker,Creativity,10.0
+1157,40,1,Maker,Practicality,10.0
+1158,40,1,Maker,Polish,10.0
+1159,40,1,Maker,Technical Depth,10.0
+1160,57,29,Maker,Creativity,7.5
+1161,57,29,Maker,Practicality,7.5
+1162,57,29,Maker,Polish,7.5
+1163,57,29,Maker,Technical Depth,7.5
+1164,57,26,Maker,Creativity,7.5
+1165,57,26,Maker,Practicality,7.5
+1166,57,26,Maker,Polish,7.5
+1167,57,26,Maker,Technical Depth,7.5
+1168,57,24,Maker,Creativity,6.5
+1169,57,24,Maker,Practicality,6.5
+1170,57,24,Maker,Polish,6.5
+1171,57,24,Maker,Technical Depth,6.5
+1172,57,22,Maker,Creativity,6.25
+1173,57,22,Maker,Practicality,6.25
+1174,57,22,Maker,Polish,6.25
+1175,57,22,Maker,Technical Depth,6.25
+1176,57,20,Maker,Creativity,7.0
+1177,57,20,Maker,Practicality,7.0
+1178,57,20,Maker,Polish,7.0
+1179,57,20,Maker,Technical Depth,7.0
+1180,57,18,Maker,Creativity,6.25
+1181,57,18,Maker,Practicality,6.25
+1182,57,18,Maker,Polish,6.25
+1183,57,18,Maker,Technical Depth,6.25
+1184,57,17,Maker,Creativity,6.5
+1185,57,17,Maker,Practicality,6.5
+1186,57,17,Maker,Polish,6.5
+1187,57,17,Maker,Technical Depth,6.5
+1188,57,16,Maker,Creativity,7.0
+1189,57,16,Maker,Practicality,7.0
+1190,57,16,Maker,Polish,7.0
+1191,57,16,Maker,Technical Depth,7.0
+1192,57,15,Maker,Creativity,6.25
+1193,57,15,Maker,Practicality,6.25
+1194,57,15,Maker,Polish,6.25
+1195,57,15,Maker,Technical Depth,6.25
+1196,57,11,Maker,Creativity,6.0
+1197,57,11,Maker,Practicality,6.0
+1198,57,11,Maker,Polish,6.0
+1199,57,11,Maker,Technical Depth,6.0
+1200,57,7,Maker,Creativity,5.75
+1201,57,7,Maker,Practicality,5.75
+1202,57,7,Maker,Polish,5.75
+1203,57,7,Maker,Technical Depth,5.75
+1204,57,5,Maker,Creativity,7.5
+1205,57,5,Maker,Practicality,7.5
+1206,57,5,Maker,Polish,7.5
+1207,57,5,Maker,Technical Depth,7.5
+1208,57,2,Maker,Creativity,6.5
+1209,57,2,Maker,Practicality,6.5
+1210,57,2,Maker,Polish,6.5
+1211,57,2,Maker,Technical Depth,6.5
+1212,57,1,Maker,Creativity,6.75
+1213,57,1,Maker,Practicality,6.75
+1214,57,1,Maker,Polish,6.75
+1215,57,1,Maker,Technical Depth,6.75
