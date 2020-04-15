@@ -1,61 +1,61 @@
 judge_id,first_name,last_name,affiliation,contact_info,date_contacted,responded?,coming?
 1,Kendra,Martin,Past organizer,slack,,,
-2,Kenny,Meyer,EECS professor,41618@case.edu,20200116,1,1
-3,Alexandra,Dunn,EECS professor,90934@case.edu,20200108,1,1
-4,Greg,Mitchell,big tech company,74479@bigtechcompany.com,20200115,0,
-5,Ryan,Black,big tech company,92780@bigtechcompany.com,20200106,0,
-6,Terry,Porter,EECS professor,18852@case.edu,20200103,1,1
+2,Kenny,Meyer,EECS professor,41618@case.edu,2020-01-16,1,1
+3,Alexandra,Dunn,EECS professor,90934@case.edu,2020-01-08,1,1
+4,Greg,Mitchell,big tech company,74479@bigtechcompany.com,2020-01-15,0,
+5,Ryan,Black,big tech company,92780@bigtechcompany.com,2020-01-06,0,
+6,Terry,Porter,EECS professor,18852@case.edu,2020-01-03,1,1
 7,Derek,Warner,big tech company,50817@bigtechcompany.com,,,
 8,Chad,Ramsey,Past organizer,slack,,,
 9,Salvatore,Jennings,Past organizer,slack,,,
-10,Tara,Hill,EECS professor,97897@case.edu,20200105,1,1
+10,Tara,Hill,EECS professor,97897@case.edu,2020-01-05,1,1
 11,Frederick,Walker,EECS professor,88130@case.edu,,,
-12,Joseph,Caldwell,EECS professor,13496@case.edu,20200115,1,1
+12,Joseph,Caldwell,EECS professor,13496@case.edu,2020-01-15,1,1
 13,Sonya,Thornton,EECS professor,34878@case.edu,,,
-14,Samantha,Romero,Past organizer,slack,20200112,0,
-15,Abel,Garrett,big tech company,40921@bigtechcompany.com,20200107,1,1
+14,Samantha,Romero,Past organizer,slack,2020-01-12,0,
+15,Abel,Garrett,big tech company,40921@bigtechcompany.com,2020-01-07,1,1
 16,Maurice,Hammond,Past organizer,slack,,,
-17,Sadie,Clarke,Past organizer,slack,10100109,1,1
-18,Melody,Gardner,big tech company,51928@bigtechcompany.com,20200117,1,1
+17,Sadie,Clarke,Past organizer,slack,2020-01-09,1,1
+18,Melody,Gardner,big tech company,51928@bigtechcompany.com,2020-01-17,1,1
 19,Ian,Frazier,EECS professor,12681@case.edu,,,
-20,Tomas,Quinn,big tech company,68020@bigtechcompany.com,20200108,1,0
-21,Rose,Gregory,Past organizer,slack,20200105,1,1
-22,Doris,Cole,EECS professor,57991@case.edu,20200112,0,
+20,Tomas,Quinn,big tech company,68020@bigtechcompany.com,2020-01-08,1,0
+21,Rose,Gregory,Past organizer,slack,2020-01-05,1,1
+22,Doris,Cole,EECS professor,57991@case.edu,2020-01-12,0,
 23,Eric,Becker,Past organizer,slack,,,
 24,Cora,Fletcher,big tech company,99854@bigtechcompany.com,,,
-25,Charlotte,Griffin,Past organizer,slack,20200104,1,0
-26,Pamela,Townsend,Past organizer,slack,20200114,1,0
+25,Charlotte,Griffin,Past organizer,slack,2020-01-04,1,0
+26,Pamela,Townsend,Past organizer,slack,2020-01-14,1,0
 27,Roland,Carson,Past organizer,slack,,,
-28,Paulette,Wheeler,EECS professor,60390@case.edu,20200102,1,1
+28,Paulette,Wheeler,EECS professor,60390@case.edu,2020-01-02,1,1
 29,Angel,Welch,EECS professor,12108@case.edu,,,
-30,Lindsay,Hamilton,Past organizer,slack,20200102,1,0
-31,Dallas,Hardy,EECS professor,89159@case.edu,20200104,0,
-32,Josephine,Simpson,Past organizer,slack,20200117,1,1
-33,Sharon,Horton,big tech company,45526@bigtechcompany.com,20200102,1,1
-34,Lucy,Vargas,Past organizer,slack,20200104,1,1
-35,Vicki,Andrews,big tech company,78705@bigtechcompany.com,20200116,1,1
-36,Alberta,Ward,big tech company,88166@bigtechcompany.com,20200104,1,0
-37,Doreen,Bass,EECS professor,46047@case.edu,20200103,1,0
-38,Louis,Graham,Past organizer,slack,20200111,0,
+30,Lindsay,Hamilton,Past organizer,slack,2020-01-02,1,0
+31,Dallas,Hardy,EECS professor,89159@case.edu,2020-01-04,0,
+32,Josephine,Simpson,Past organizer,slack,2020-01-17,1,1
+33,Sharon,Horton,big tech company,45526@bigtechcompany.com,2020-01-02,1,1
+34,Lucy,Vargas,Past organizer,slack,2020-01-04,1,1
+35,Vicki,Andrews,big tech company,78705@bigtechcompany.com,2020-01-16,1,1
+36,Alberta,Ward,big tech company,88166@bigtechcompany.com,2020-01-04,1,0
+37,Doreen,Bass,EECS professor,46047@case.edu,2020-01-03,1,0
+38,Louis,Graham,Past organizer,slack,2020-01-11,0,
 39,Neal,Roberts,EECS professor,79454@case.edu,,,
-40,Darrell,Holloway,EECS professor,40243@case.edu,20200117,1,1
-41,May,Cannon,big tech company,68824@bigtechcompany.com,20200118,1,1
-42,Ricky,Clayton,Past organizer,slack,20200119,1,0
-43,Jessica,Lawrence,Past organizer,slack,20200105,1,1
+40,Darrell,Holloway,EECS professor,40243@case.edu,2020-01-17,1,1
+41,May,Cannon,big tech company,68824@bigtechcompany.com,2020-01-18,1,1
+42,Ricky,Clayton,Past organizer,slack,2020-01-19,1,0
+43,Jessica,Lawrence,Past organizer,slack,2020-01-05,1,1
 44,Cynthia,Murray,EECS professor,39358@case.edu,,,
-45,Tyrone,Lloyd,Past organizer,slack,20200109,1,1
-46,Dennis,Swanson,big tech company,45499@bigtechcompany.com,20200108,1,0
+45,Tyrone,Lloyd,Past organizer,slack,2020-01-09,1,1
+46,Dennis,Swanson,big tech company,45499@bigtechcompany.com,2020-01-08,1,0
 47,Joshua,Collier,EECS professor,26205@case.edu,,,
-48,Raul,Willis,EECS professor,34899@case.edu,20200101,0,
-49,Bradford,Erickson,Past organizer,slack,20200108,1,0
+48,Raul,Willis,EECS professor,34899@case.edu,2020-01-01,0,
+49,Bradford,Erickson,Past organizer,slack,2020-01-08,1,0
 50,Josh,Hunter,EECS professor,74071@case.edu,,,
-51,Saul,Collier,big tech company,17364@bigtechcompany.com,20200109,1,0
+51,Saul,Collier,big tech company,17364@bigtechcompany.com,2020-01-09,1,0
 52,Charlotte,Russell,big tech company,22685@bigtechcompany.com,,,
-53,Bryan,Hawkins,EECS professor,43574@case.edu,20200119,0,
-54,Claudia,Gill,EECS professor,66385@case.edu,20200110,0,
-55,Helen,Cobb,big tech company,46323@bigtechcompany.com,20200110,1,1
-56,Judy,Reeves,EECS professor,74471@case.edu,20200110,1,1
-57,Russell,Cummings,big tech company,17264@bigtechcompany.com,20200110,1,1
-58,Antoinette,Parker,big tech company,22385@bigtechcompany.com,20200110,1,1
-59,Sherry,Grant,EECS professor,43474@case.edu,20200110,1,1
-60,Billie,Gibson,EECS professor,66585@case.edu,20200110,1,1
+53,Bryan,Hawkins,EECS professor,43574@case.edu,2020-01-19,0,
+54,Claudia,Gill,EECS professor,66385@case.edu,2020-01-10,0,
+55,Helen,Cobb,big tech company,46323@bigtechcompany.com,2020-01-10,1,1
+56,Judy,Reeves,EECS professor,74471@case.edu,2020-01-10,1,1
+57,Russell,Cummings,big tech company,17264@bigtechcompany.com,2020-01-10,1,1
+58,Antoinette,Parker,big tech company,22385@bigtechcompany.com,2020-01-10,1,1
+59,Sherry,Grant,EECS professor,43474@case.edu,2020-01-10,1,1
+60,Billie,Gibson,EECS professor,66585@case.edu,2020-01-10,1,1
