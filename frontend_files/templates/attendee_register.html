@@ -1,0 +1,52 @@
+<!doctype html>
+<title>Register for Hackathon</title>
+<body>
+
+    <div id="outerContainer">
+        <div id="formContainer">
+            {% if error %}
+                <div class="error">{{ error }}</div>
+            {% endif %}
+            <h1>Register for Hackathon</h1>
+            <form name="register" action="/register/" method="POST">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="firstname"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lastname"><br>
+
+                <label for="email">Email address:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age"><br>
+
+                <label for="school">Name of school:</label><br>
+                <input type="text" id="school" name="school"><br>
+
+                <label for="levelOfStudy">Level of study:</label><br>
+                <input type="text" id="levelOfStudy" name="levelOfStudy"><br>
+
+                <label for="major">Major:</label><br>
+                <input type="text" id="major" name="major"><br>
+
+                <p>Select your shirt size:</p>
+                    <input type="radio" id="small" name="shirtsize" value="S">
+                    <label for="small">Small</label><br>
+
+                    <input type="radio" id="med" name="shirtsize" value="M">
+                    <label for="med">Medium</label><br>
+
+                    <input type="radio" id="large" name="shirtsize" value="L">
+                    <label for="large">Large</label><br>
+                    
+                    <input type="radio" id="extralarge" name="shirtsize" value="XL">
+                    <label for="extralarge">Extra-Large</label><br>
+                
+                <input type="submit" name="submit">
+
+            </form>
+        </div>
+    </div>
+
+</body>
