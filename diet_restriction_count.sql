@@ -1,6 +1,6 @@
-# Get count of people with each dietary restriction
+/* Get count of people with each dietary restriction*/
 SELECT restriction, COUNT(*)
-FROM DietRestriction
+FROM dietrestriction
 GROUP BY restriction
 ORDER BY COUNT(*) desc
 
