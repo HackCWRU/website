@@ -1,6 +1,7 @@
 from flask import Flask, url_for, request, render_template
 from flask_mysqldb import MySQL
 from markupsafe import escape
+import datetime
 
 app = Flask(__name__)
 
@@ -17,7 +18,7 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
 
-with open('../each_project_score.sql', 'r') as file:
+with open('./each_project_score.sql', 'r') as file:
     data = file.read()
 
 @app.route('/')
@@ -32,38 +33,136 @@ def index():
     print(results)
     return results[0]
 
-#@app.route('/register/<error>')
-@app.route('/register/', methods=['POST', 'GET'])
-def register(error = None):
+
+@app.route('/menu')
+def menu():
+    return render_template('main_menu.html')
+
+
+
+
+#ATTENDEE AND JUDGE REGISTRATION------------------------------------------------------------------------------------------------------
+@app.route('/register/<type>', methods=['POST', 'GET'])
+def register(error = None, type = None):
     error = None
+
     if request.method == 'POST':
-        if valid_registration(request.form):
-            register_attendee(request.form)
-            return confirmation(request.form['firstname'])
-        else:
-            error = "Invalid registration"
+        if type == "attendee":
+            if valid_registration(request.form):
+                id = register_attendee(request.form)
+                #return confirmation(request.form['firstname'], id, type)
+            else:
+                error = "Invalid registration"
+        elif type == "judge":
+            if valid_registration(request.form):
+                id = register_judge(request.form)
+                #return confirmation(request.form['firstname'], id, type)
+            else:
+                error = "Invalid registration"
+
+        return confirmation(request.form['firstname'], id, type)
+        
     
-    return render_template('attendee_register.html', error = error)
+    if type == "attendee":
+        return render_template('attendee_registration_form.html', error = error)
+    elif type == 'judge':
+        return render_template('judge_registration_form.html', error = error)
+
 
 @app.route('/confirmation/<name>')
-def confirmation(name=None): 
-    return render_template('registration_confirmation.html', name = name)
-
+def confirmation(name=None, id=None, type=None): 
+    if type == "attendee":
+        return render_template('attendee_registration_confirmation.html', name = name, id = id, event_date = "Feb. 7, 2020")
+    elif type == "judge":
+        return render_template('judge_registration_confirmation.html', name = name, id = id, event_date = "Feb. 7, 2020")
+    elif type == "project_create":
+        return render_template('project_creation_confirmation.html', name = name, id = id)
+    elif type == "project_join":
+        return render_template('project_join_confirmation.html', name = name, id = id)
 
 def valid_registration(registrationForm):
     #registrationForm['firstname'] 
-    # for now, just to see if I can insert an attendee successfully
+    # for now, just to see if I can insert an attendee successfully, default to true
     return True
 
 def register_attendee(form):
-    with open('../get_max_attendee_id.sql', 'r') as file:
+    with open('./get_max_attendee_id.sql', 'r') as file:
         getMaxId = file.read()
         cur = mysql.connection.cursor()
         cur.execute(getMaxId)
         maxId = cur.fetchone()
-        cur.execute('''INSERT INTO attendee(attendee_id, first_name, last_name, email, age, project_id, checked_in, school, level_of_study, major, shirt_size) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''', (str(maxId['MAX(attendee_id)'] + 1),form['firstname'],form['lastname'], form['email'], form['age'], None , 0 , form['school'], form['levelOfStudy'], form['major'], form['shirtsize']))
+        id = str(maxId['MAX(attendee_id)'] + 1)
+        cur.execute('''INSERT INTO attendee(attendee_id, first_name, last_name, email, age, project_id, checked_in, school, level_of_study, major, shirt_size) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''', (id,form['firstname'],form['lastname'], form['email'], form['age'], None , 0 , form['school'], form['levelOfStudy'], form['major'], form['shirtsize']))
         mysql.connection.commit()
+        return id
+
+def register_judge(form):
+    with open('./get_max_judge_id.sql', 'r') as file:
+        getMaxId = file.read()
+        cur = mysql.connection.cursor()
+        cur.execute(getMaxId)
+        maxId = cur.fetchone()
+        now = datetime.date(2009, 5, 5)
+        id = str(maxId['MAX(judge_id)'] + 1)
+        cur.execute('''INSERT INTO judge(judge_id, first_name, last_name, affiliation, date_contacted, responded, coming, contact_info) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)''', (id, form['firstname'], form['lastname'], form['affiliation'], now, 0, 0 , form['contact_info']))
+        mysql.connection.commit()
+        return id
 
 
+
+
+#PROJECT CREATION AND JOINING ------------------------------------------------------------------------------------------------------
+@app.route('/project/create', methods=['POST', 'GET'])
+def createprojectrequest(error = None):
+    error = None
+
+    if request.method == 'POST':
+        if valid_project_creation(request.form):
+            id = create_project(request.form)
+            return confirmation(request.form['name'], id, "project_create")
+        else:
+            error = "Invalid project creation"
+
+    return render_template('project_create.html', error = error)
+
+def valid_project_creation(project_form):
+    # for now, just to see if I can creat a project successfully, default to true
+    return True
+
+def create_project(form):
+    with open('./get_max_project_id.sql', 'r') as file:
+        getMaxId = file.read()
+        cur = mysql.connection.cursor()
+        cur.execute(getMaxId)
+        maxId = cur.fetchone()
+        id = str(maxId['MAX(project_id)'] + 1)
+        cur.execute('''INSERT INTO project(project_id, project_name, table_num, tagline) VALUES (%s,%s,%s,%s)''', (id, form['name'], None, form['tagline']))
+        mysql.connection.commit()
+        return id
+
+
+
+@app.route('/project/join', methods=['POST', 'GET'])
+def joinprojectrequest(error = None):
+    error = None
+
+    if request.method == 'POST':
+        if valid_project_join(request.form):
+            join_project(request.form)
+            return confirmation(None, request.form['project_id'], "project_join")
+        else:
+            error = "Invalid project creation"
+
+    return render_template('project_join.html', error = error)
+
+def valid_project_join(join_form):
+    # for now, just to see if I can creat a project successfully, default to true
+    return True
+
+def join_project(form):
+    cur = mysql.connection.cursor()
+    #join the new team WILL OVERWRITE old team affiliation
+    cur.execute('''UPDATE attendee SET project_id = %s WHERE attendee_id = %s''', (form['project_id'], form['attendee_id']))
+    mysql.connection.commit()
 
     

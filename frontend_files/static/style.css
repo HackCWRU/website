@@ -1,4 +1,99 @@
 html {
-    background-color: #111111;
+    background-color: #588adb;
+    color:black;
+    font-family: Arial;
+}
+
+body {
+    padding: 5%;
+}
+
+.menuBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #1e488b;
+    color: white;
+    box-shadow: -5px 5px 5px rgb(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+.menuBtn:hover{
+    background-color: #123875;
+}
+
+.menuBtn a:link, .menuBtn a:visited, .menuBtn a{
     color:white;
+    text-decoration: none;
+}
+
+#formContainer {
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    padding: 10px 50px 20px 50px;
+    text-align: left;
+    box-shadow: -5px 5px 5px rgb(0,0,0,0.2);
+    max-width: 90%;
+    box-sizing: border-box;
+ }
+
+#fname, #lname,#email,#school,#levelOfStudy,#major, #name, #tagline, #project_id, #attendee_id, #contact_info, #affiliation{
+    width: 100%;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #d5d5d5;
+    transition: .2s;
+}
+
+#confirmationContainer{
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 50px 20px 50px;
+    text-align: left;
+    box-shadow: -5px 5px 5px rgb(0,0,0,0.2);
+    max-width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.confirmationInfo{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.important{
+    font-size: calc(inherit+5);
+    background-color: lightgreen;
 }
