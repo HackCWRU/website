@@ -1,0 +1,44 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<title>Judge Registration</title>
+<body>
+    <div class="menuBtn"><a href="/menu">Menu</a></div>
+    <div id="formContainer">
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <h1>Register to be a Judge for the Hackathon</h1>
+        <form name="register" action="/register/judge" method="POST">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="firstname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lastname"><br>
+
+            <label for="affiliation">Affiliation:</label><br>
+            <input type="text" id="affiliation" name="affiliation" placeholder="Company or School"><br>
+
+            <label for="contact_info">Contact info:</label><br>
+            <input type="text" id="contact_info" name="contact_info" placeholder="however you would like us to contact you"><br>
+
+            <!--<p>Select your shirt size:</p>
+                <input type="radio" id="small" name="shirtsize" value="S">
+                <label for="small">Small</label><br>
+
+                <input type="radio" id="med" name="shirtsize" value="M">
+                <label for="med">Medium</label><br>
+
+                <input type="radio" id="large" name="shirtsize" value="L">
+                <label for="large">Large</label><br>
+                
+                <input type="radio" id="extralarge" name="shirtsize" value="XL">
+                <label for="extralarge">Extra-Large</label><br>-->
+            
+            <input type="submit" name="submit" value="Register">
+
+        </form>
+    </div>
+
+</body>

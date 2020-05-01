@@ -1,0 +1,13 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<title>Judge Registration Confirmation</title>
+<body>
+    <div class="menuBtn"><a href="/menu">Menu</a></div>
+    <div id="confirmationContainer">
+        <h1 id="confirmationTitle">Thank you, {{ name }}! You are now registered as a judge for the hackathon.</h1>
+        <div class="confirmationInfo">Your judge id is: <p class="important">{{id}}</p> Save this in a secure place!</div>
+        <div class="confirmationInfo">The hackathon will be on {{event_date}}</div>
+    </div>
+</body>
