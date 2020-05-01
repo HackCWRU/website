@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<title>Create a Project</title>
+<body>
+    <div class="menuBtn"><a href="/menu">Menu</a></div>
+    <div id="formContainer">
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <h1>Create a New Project</h1>
+        <form name="create_project" action="/project/create" method="POST">
+            <label for="name">Project name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="tagline">Tagline for Your Project:</label><br>
+            <input type="text" id="tagline" name="tagline"><br>
+
+            <input type="submit" name="submit" value="Create Project">
+        </form>
+    </div>
+
+</body>
