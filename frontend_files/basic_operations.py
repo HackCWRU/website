@@ -79,6 +79,8 @@ def confirmation(name=None, id=None, type=None):
         return render_template('project_creation_confirmation.html', name = name, id = id)
     elif type == "project_join":
         return render_template('project_join_confirmation.html', name = name, id = id)
+    elif type == "project_submit":
+        return render_template('project_submit_confirmation.html')
 
 def valid_registration(registrationForm):
     #registrationForm['firstname'] 
@@ -165,4 +167,39 @@ def join_project(form):
     cur.execute('''UPDATE attendee SET project_id = %s WHERE attendee_id = %s''', (form['project_id'], form['attendee_id']))
     mysql.connection.commit()
 
-    
+#PROJECT SUBMISSION FOR PRIZE ------------------------------------------------------------------------------------------------------
+@app.route('/project/submitforprize', methods=['POST', 'GET'])
+def submitprojectrequest(error = None):
+    error = None
+
+    with open('./get_prize_names.sql', 'r') as file:
+        getPrizeNames = file.read()
+        cur = mysql.connection.cursor()
+        cur.execute(getPrizeNames)
+        #prize names
+        names = cur.fetchall()
+
+        if request.method == 'POST':
+            if valid_project_submission(request.form):
+                id = submit_project(names, request.form)
+                return confirmation(request.form['project_id'], id, "project_submit")
+            else:
+                error = "Invalid project creation"
+
+        
+        return render_template('project_submission_form.html', error = error, prizes = names)
+
+def valid_project_submission(project_form):
+    # for now, just to see if I can creat a project successfully, default to true
+    return True
+
+def submit_project(prizes, form):
+    for prize in prizes:
+        
+        if request.form.get(prize['prize_name']):
+            print('submitting project for %s ' % (str(prize['prize_name'])))
+            cur = mysql.connection.cursor()
+            cur.execute('''INSERT INTO projectforprize(project_id, prize_name) VALUES (%s,%s)''', (form['project_id'], str(prize['prize_name'])))
+            mysql.connection.commit()
+
+    return id

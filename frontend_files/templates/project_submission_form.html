@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<title>Submit Project</title>
+<body>
+    <div class="menuBtn"><a href="/menu">Menu</a></div>
+    <div id="formContainer" style="width: 600px;">
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <h1>Submit Project for Prizes</h1>
+        <form name="register" action="/project/submitforprize" method="POST">
+            <label for="project_id">Project ID:</label><br>
+            <input type="text" id="project_id" name="project_id"><br>
+
+            <p>Which prizes would you like to submit for?</p>
+            {% for prize in prizes %} 
+                <input type="checkbox" id="{{prize['prize_name']}}" name="{{prize['prize_name']}}" value="{{prize['prize_name']}}">
+                <label for="{{prize['prize_name']}}"> {{prize['prize_name']}} </label><br>
+            {% endfor %}
+
+            <input type="submit" name="submit" value="Register">
+        </form>
+    </div>
+
+</body>
