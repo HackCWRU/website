@@ -9,7 +9,6 @@ app = Flask(__name__)
 # then the files should work as soon as they are pulled regardless of machine.
 # FYI, I made this user with the DBManager administrative role
 
-
 app.config['MYSQL_USER'] = 'hackathon_admin'
 app.config['MYSQL_PASSWORD'] = 'admin'
 app.config['MYSQL_HOST'] = 'localhost'
@@ -18,7 +17,7 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
 
-with open('./each_project_score.sql', 'r') as file:
+with open('../backend/sql_files/each_project_score.sql', 'r') as file:
     data = file.read()
 
 @app.route('/')
@@ -37,8 +36,6 @@ def index():
 @app.route('/menu')
 def menu():
     return render_template('main_menu.html')
-
-
 
 
 #ATTENDEE AND JUDGE REGISTRATION------------------------------------------------------------------------------------------------------
@@ -61,8 +58,7 @@ def register(error = None, type = None):
                 error = "Invalid registration"
 
         return confirmation(request.form['firstname'], id, type)
-        
-    
+
     if type == "attendee":
         return render_template('attendee_registration_form.html', error = error)
     elif type == 'judge':
@@ -186,7 +182,6 @@ def submitprojectrequest(error = None):
             else:
                 error = "Invalid project creation"
 
-        
         return render_template('project_submission_form.html', error = error, prizes = names)
 
 def valid_project_submission(project_form):
@@ -195,7 +190,6 @@ def valid_project_submission(project_form):
 
 def submit_project(prizes, form):
     for prize in prizes:
-        
         if request.form.get(prize['prize_name']):
             print('submitting project for %s ' % (str(prize['prize_name'])))
             cur = mysql.connection.cursor()
@@ -203,3 +197,6 @@ def submit_project(prizes, form):
             mysql.connection.commit()
 
     return id
+
+if __name__ == '__main__':
+    app.run(debug=True)#, host='0.0.0.0')
