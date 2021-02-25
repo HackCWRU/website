@@ -22,15 +22,7 @@ with open('../backend/sql_files/each_project_score.sql', 'r') as file:
 
 @app.route('/')
 def index():
-    cur = mysql.connection.cursor()
-    #to apply an insertion or deletion to the database
-    #   mysql.connection.commit()
-    #to execute a typed query on the database
-    #   cur.execute('''SELECT restriction, COUNT(*) FROM dietrestriction GROUP BY restriction ORDER BY COUNT(*) desc''')
-    cur.execute(data)
-    results = cur.fetchall()
-    print(results)
-    return results[0]
+    return render_template('main_menu.html')
 
 
 @app.route('/menu')
@@ -84,29 +76,27 @@ def valid_registration(registrationForm):
     return True
 
 def register_attendee(form):
-    with open('./get_max_attendee_id.sql', 'r') as file:
+    with open('../backend/sql_files/get_max_attendee_id.sql', 'r') as file:
         getMaxId = file.read()
         cur = mysql.connection.cursor()
         cur.execute(getMaxId)
         maxId = cur.fetchone()
         id = str(maxId['MAX(attendee_id)'] + 1)
-        cur.execute('''INSERT INTO attendee(attendee_id, first_name, last_name, email, age, project_id, checked_in, school, level_of_study, major, shirt_size) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''', (id,form['firstname'],form['lastname'], form['email'], form['age'], None , 0 , form['school'], form['levelOfStudy'], form['major'], form['shirtsize']))
+        cur.execute('''INSERT INTO Attendee(attendee_id, first_name, last_name, email, age, project_id, checked_in, school, level_of_study, major, shirt_size) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)''', (id,form['firstname'],form['lastname'], form['email'], form['age'], None , 0 , form['school'], form['levelOfStudy'], form['major'], form['shirtsize']))
         mysql.connection.commit()
         return id
 
 def register_judge(form):
-    with open('./get_max_judge_id.sql', 'r') as file:
+    with open('../backend/sql_files/get_max_judge_id.sql', 'r') as file:
         getMaxId = file.read()
         cur = mysql.connection.cursor()
         cur.execute(getMaxId)
         maxId = cur.fetchone()
         now = datetime.date(2009, 5, 5)
         id = str(maxId['MAX(judge_id)'] + 1)
-        cur.execute('''INSERT INTO judge(judge_id, first_name, last_name, affiliation, date_contacted, responded, coming, contact_info) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)''', (id, form['firstname'], form['lastname'], form['affiliation'], now, 0, 0 , form['contact_info']))
+        cur.execute('''INSERT INTO Judge(judge_id, first_name, last_name, affiliation, date_contacted, responded, coming, contact_info) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)''', (id, form['firstname'], form['lastname'], form['affiliation'], now, 0, 0 , form['contact_info']))
         mysql.connection.commit()
         return id
-
-
 
 
 #PROJECT CREATION AND JOINING ------------------------------------------------------------------------------------------------------
@@ -198,5 +188,18 @@ def submit_project(prizes, form):
 
     return id
 
+# LINKS FOR ORGANIZERS -----------------------------------------------------------------------------------------------
+@app.route('/winners')
+def winners():
+    cur = mysql.connection.cursor()
+    #to apply an insertion or deletion to the database
+    #   mysql.connection.commit()
+    #to execute a typed query on the database
+    #   cur.execute('''SELECT restriction, COUNT(*) FROM dietrestriction GROUP BY restriction ORDER BY COUNT(*) desc''')
+    cur.execute(data)
+    results = cur.fetchall()
+    print(results)
+    return results[0]
+
 if __name__ == '__main__':
-    app.run(debug=True)#, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')
