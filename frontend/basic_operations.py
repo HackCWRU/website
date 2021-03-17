@@ -246,16 +246,6 @@ def submit_project(prizes, form):
 
     return id
 
-
-# LINKS FOR JUDGES ---------------------------------------------------------------------------------------------------
-
-
-@app.route("/judging/score")
-def judge_project():
-    # First we have to identify the judge
-    return render_template("judge_score_email.html")
-
-
 # LINKS FOR ORGANIZERS -----------------------------------------------------------------------------------------------
 @app.route("/winners")
 def winners():
@@ -269,6 +259,68 @@ def winners():
     print(results)
     return results[0]
 
+def get_judge_email(form):
+    with open('../backend/sql_files/get_max_judge_id.sql', 'r') as file:
+        getMaxId = file.read()
+        cur = mysql.connection.cursor()
+        cur.execute(getMaxId)
+        maxId = cur.fetchone()
+        now = datetime.date(2009, 5, 5)
+        id = str(maxId['MAX(judge_id)'] + 1)
+        cur.execute('''INSERT INTO Judge(judge_id, first_name, last_name, affiliation, date_contacted, responded, coming, contact_info) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)''', (id, form['firstname'], form['lastname'], form['affiliation'], now, 0, 0 , form['contact_info']))
+        mysql.connection.commit()
+        return id
 
-if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+# LINKS FOR JUDGES ---------------------------------------------------------------------------------------------------
+@app.route("/judging/score")
+def judge_project():
+    # First we have to identify the judge
+    return render_template("judge_score_email.html")
+
+@app.route('/judging/score')
+def scoring_email_form():
+    # First we have to identify the judge
+    return render_template("judge_score_email.html")
+    
+@app.route('/judging/scoreform', methods=["POST", "GET"])
+def scoring_form():
+    if request.method == "POST":
+        email = request.form['email']
+        # get judge id
+        cur = mysql.connection.cursor()
+        cur.execute(f'SELECT judge_id from Judge where contact_info="{email}"')
+        judge_id = cur.fetchone()['judge_id']       
+
+        # now use judge id to get list of prizes this judge is judging
+        cur.execute(f'''
+            SELECT DISTINCT prize_name
+            FROM JudgesProject WHERE judge_id={judge_id}
+        '''
+        )
+        prize_list = [p['prize_name'] for p in cur.fetchall()]
+
+        # get list of project names and table numbers submitted for each of these prizes that judge is judging
+        projects_and_tables = []
+        prize_categories = []
+        for prize in prize_list:
+            cur.execute(f'''
+                SELECT DISTINCT project_name, table_num
+                FROM JudgesProject JOIN Project ON JudgesProject.project_id = Project.project_id 
+                WHERE judge_id={judge_id} and prize_name="{prize}"
+            '''
+            )
+            projects_and_tables.append(cur.fetchall())
+
+            # get scoring categories for each of the prizes
+            cur.execute(f'''
+                SELECT category_name FROM HasCriteria
+                WHERE prize_name="{prize}"
+            ''')
+            prize_categories.append([c['category_name'] for c in cur.fetchall()])
+
+        # zip prize list with projects, tables, and categories for each prize. Each element of this list is
+        # (prize name, names and table numbers of each project submitted for this prize that this judge is judging, scoring categories for this prize)
+        print(list(zip(prize_list, projects_and_tables, prize_categories)))
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')
