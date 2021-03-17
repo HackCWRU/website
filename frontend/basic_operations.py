@@ -118,7 +118,7 @@ def valid_project_creation(project_form):
     return True
 
 def create_project(form):
-    with open('./get_max_project_id.sql', 'r') as file:
+    with open('../backend/sql_files/get_max_project_id.sql', 'r') as file:
         getMaxId = file.read()
         cur = mysql.connection.cursor()
         cur.execute(getMaxId)
@@ -158,7 +158,7 @@ def join_project(form):
 def submitprojectrequest(error = None):
     error = None
 
-    with open('./get_prize_names.sql', 'r') as file:
+    with open('../backend/sql_files/get_prize_names.sql', 'r') as file:
         getPrizeNames = file.read()
         cur = mysql.connection.cursor()
         cur.execute(getPrizeNames)
@@ -187,6 +187,14 @@ def submit_project(prizes, form):
             mysql.connection.commit()
 
     return id
+
+# LINKS FOR JUDGES ---------------------------------------------------------------------------------------------------
+
+@app.route('/judging/score')
+def judge_project():
+    # First we have to identify the judge
+    return render_template('judge_score_email.html')
+
 
 # LINKS FOR ORGANIZERS -----------------------------------------------------------------------------------------------
 @app.route('/winners')
