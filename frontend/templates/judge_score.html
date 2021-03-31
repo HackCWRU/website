@@ -5,4 +5,26 @@
 </head>
 <body>
     <div class="menuBtn"><a href="/menu">Menu</a></div>
+    <div id="scoringTable">
+        <form name="submitScores" action="/judging/submitscoreform" method="POST">
+        {% for (prize, projectlist, categories) in projects %}
+        <h2> {{prize}} </h2>
+        <table style="width:100%">
+            <tr> 
+                <th> Project Name </th> <th> Table Number </th> <th> Scores </th>
+            </tr>
+            {% for project in projectlist %}
+                <tr>
+                    <td> {{project['project_name']}} </td>
+                    <td> {{project['table_num']}} </td>
+                    {% for category in categories %} 
+                    <td> <input type="number" id="number" name="score{{project['table_num']}}{{category}}" placeholder="{{category}}"> </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+        {% endfor %}
+        <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
 </body>

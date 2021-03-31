@@ -320,7 +320,15 @@ def scoring_form():
 
         # zip prize list with projects, tables, and categories for each prize. Each element of this list is
         # (prize name, names and table numbers of each project submitted for this prize that this judge is judging, scoring categories for this prize)
-        print(list(zip(prize_list, projects_and_tables, prize_categories)))
+        project_list = list(zip(prize_list, projects_and_tables, prize_categories))
+
+        return render_template("judge_score.html", projects=project_list)
+
+@app.route('/judging/submitscoreform', methods=["POST", "GET"])
+def submit_scoring_form():
+    if request.method == "POST":
+        print(request.form)
+        return render_template("main_menu.html")
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
