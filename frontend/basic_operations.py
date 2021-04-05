@@ -313,10 +313,11 @@ def scoring_form():
 
             # get scoring categories for each of the prizes
             cur.execute(f'''
-                SELECT category_name FROM HasCriteria
-                WHERE prize_name="{prize}"
+                SELECT HasCriteria.category_name, min_score, max_score FROM HasCriteria
+                JOIN ScoringCategory ON HasCriteria.category_name = ScoringCategory.category_name
+                AND prize_name="{prize}"
             ''')
-            prize_categories.append([c['category_name'] for c in cur.fetchall()])
+            prize_categories.append(cur.fetchall())
 
         # zip prize list with projects, tables, and categories for each prize. Each element of this list is
         # (prize name, names and table numbers of each project submitted for this prize that this judge is judging, scoring categories for this prize)
