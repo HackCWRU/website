@@ -18,13 +18,14 @@
                     <td> {{project['project_name']}} </td>
                     <td> {{project['table_num']}} </td>
                     {% for category in categories %} 
-                    <td> <input type="number" id="number" name="score{{project['table_num']}}{{category}}" placeholder="{{category}}"> </td>
+                    <td> <input type="number" id="number" name="{{prize}}|{{project['project_id']}}|{{category}}" placeholder="{{category}}"> </td>
                     {% endfor %}
                 </tr>
             {% endfor %}
         </table>
         {% endfor %}
         <input type="submit" name="submit" value="Submit">
+        <input type="hidden" name="judge_id" value="{{judge_id}}">
         </form>
     </div>
 </body>
