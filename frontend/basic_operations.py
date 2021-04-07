@@ -364,7 +364,7 @@ def submit_scoring_form():
                             (score, judge_id, project_id, prize, category))
                 mysql.connection.commit()
 
-        return render_template("main_menu.html")
+        return render_template("judge_score_confirmation.html")
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
