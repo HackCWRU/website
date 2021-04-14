@@ -307,6 +307,7 @@ def scoring_form():
                 SELECT DISTINCT project_name, table_num, JudgesProject.project_id
                 FROM JudgesProject JOIN Project ON JudgesProject.project_id = Project.project_id 
                 WHERE judge_id={judge_id} and prize_name="{prize}"
+                ORDER BY table_num ASC
             '''
             )
             projects_and_tables.append(cur.fetchall())
