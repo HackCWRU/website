@@ -168,7 +168,7 @@ def create_project(form):
         maxId = cur.fetchone()
         id = str(maxId["MAX(project_id)"] + 1)
         cur.execute(
-            """INSERT INTO project(project_id, project_name, table_num, tagline) VALUES (%s,%s,%s,%s)""",
+            """INSERT INTO Project(project_id, project_name, table_num, tagline) VALUES (%s,%s,%s,%s)""",
             (id, form["name"], None, form["tagline"]),
         )
         mysql.connection.commit()
@@ -198,7 +198,7 @@ def join_project(form):
     cur = mysql.connection.cursor()
     # join the new team WILL OVERWRITE old team affiliation
     cur.execute(
-        """UPDATE attendee SET project_id = %s WHERE attendee_id = %s""",
+        """UPDATE Attendee SET project_id = %s WHERE attendee_id = %s""",
         (form["project_id"], form["attendee_id"]),
     )
     mysql.connection.commit()
@@ -239,7 +239,7 @@ def submit_project(prizes, form):
             print("submitting project for %s " % (str(prize["prize_name"])))
             cur = mysql.connection.cursor()
             cur.execute(
-                """INSERT INTO projectforprize(project_id, prize_name) VALUES (%s,%s)""",
+                """INSERT INTO ProjectForPrize(project_id, prize_name) VALUES (%s,%s)""",
                 (form["project_id"], str(prize["prize_name"])),
             )
             mysql.connection.commit()
@@ -304,9 +304,10 @@ def scoring_form():
         prize_categories = []
         for prize in prize_list:
             cur.execute(f'''
-                SELECT DISTINCT project_name, table_num
+                SELECT DISTINCT project_name, table_num, JudgesProject.project_id
                 FROM JudgesProject JOIN Project ON JudgesProject.project_id = Project.project_id 
                 WHERE judge_id={judge_id} and prize_name="{prize}"
+                ORDER BY table_num ASC
             '''
             )
             projects_and_tables.append(cur.fetchall())
@@ -323,13 +324,49 @@ def scoring_form():
         # (prize name, names and table numbers of each project submitted for this prize that this judge is judging, scoring categories for this prize)
         project_list = list(zip(prize_list, projects_and_tables, prize_categories))
 
-        return render_template("judge_score.html", projects=project_list)
+        return render_template("judge_score.html", projects=project_list, judge_id = judge_id)
 
 @app.route('/judging/submitscoreform', methods=["POST", "GET"])
 def submit_scoring_form():
     if request.method == "POST":
-        print(request.form)
-        return render_template("main_menu.html")
+        # initialize cursor
+        cur = mysql.connection.cursor()
+
+        judge_id = request.form['judge_id']
+        for field_name, score in request.form.items():
+            # if field_name
+            # ignore if there's no score submitted
+            if score != '' and field_name != 'judge_id' and field_name != 'submit':
+                try:
+                    score = int(score)
+                except ValueError:
+                    print(f"Incorrect format: score {score} expected to be integer")
+                    continue
+
+                # field_name is in format prize|project_id|track_name
+                try:
+                    prize, project_id, category = field_name.split('|')
+                except ValueError:
+                    print(f"Incorrect field name format: {field_name} expected prize|project_id|track_name")
+                    continue
+
+                # convert project_id to int
+                try:
+                    project_id = int(project_id)
+                except ValueError:
+                    print(f"Incorrect format: prize_id {project_id} expected to be integer")
+                    continue
+                
+                cur.execute('''UPDATE JudgesProject SET score = %s
+                            WHERE judge_id = %s AND
+                                  project_id = %s AND
+                                  prize_name = %s AND
+                                  category_name = %s 
+                            ''', 
+                            (score, judge_id, project_id, prize, category))
+                mysql.connection.commit()
+
+        return render_template("judge_score_confirmation.html")
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
