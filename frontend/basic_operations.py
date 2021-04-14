@@ -168,7 +168,7 @@ def create_project(form):
         maxId = cur.fetchone()
         id = str(maxId["MAX(project_id)"] + 1)
         cur.execute(
-            """INSERT INTO project(project_id, project_name, table_num, tagline) VALUES (%s,%s,%s,%s)""",
+            """INSERT INTO Project(project_id, project_name, table_num, tagline) VALUES (%s,%s,%s,%s)""",
             (id, form["name"], None, form["tagline"]),
         )
         mysql.connection.commit()
@@ -198,7 +198,7 @@ def join_project(form):
     cur = mysql.connection.cursor()
     # join the new team WILL OVERWRITE old team affiliation
     cur.execute(
-        """UPDATE attendee SET project_id = %s WHERE attendee_id = %s""",
+        """UPDATE Attendee SET project_id = %s WHERE attendee_id = %s""",
         (form["project_id"], form["attendee_id"]),
     )
     mysql.connection.commit()
@@ -239,7 +239,7 @@ def submit_project(prizes, form):
             print("submitting project for %s " % (str(prize["prize_name"])))
             cur = mysql.connection.cursor()
             cur.execute(
-                """INSERT INTO projectforprize(project_id, prize_name) VALUES (%s,%s)""",
+                """INSERT INTO ProjectForPrize(project_id, prize_name) VALUES (%s,%s)""",
                 (form["project_id"], str(prize["prize_name"])),
             )
             mysql.connection.commit()

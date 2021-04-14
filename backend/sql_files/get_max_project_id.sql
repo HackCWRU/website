@@ -1,2 +1,2 @@
 SELECT MAX(project_id)
-FROM project
+FROM Project
